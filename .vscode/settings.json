@@ -2,7 +2,7 @@
     "editor.formatOnPaste": true,
     "json.schemas": [
         {
-            "fileMatch": ["/guides/*"],
+            "fileMatch": ["/guides/**"],
             "url": "./schemas/guide-creation-schema.json"
         }
     ]
