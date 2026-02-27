@@ -1,0 +1,155 @@
+{
+    "name": "Name of your guide",
+    "version": 1,
+    "data": {
+        "stepIndex": 0,
+        "steps": [
+            {
+                "type": "message",
+                "instruction": "",
+                "criteria": "The criteria that must be met (excludes white space automatically)"
+            },
+            {
+                "type": "cake",
+                "instruction": "Eat cakes &b%cakes%",
+                "eaten": []
+            },
+            {
+                "type": "sell",
+                "instruction": "",
+                "items": [
+                    "SAND",
+                    "FISHING_ROD"
+                ]
+            },
+            {
+                "type": "buy",
+                "instruction": "",
+                "items": {
+                    "ROOKIE_HOE": {
+                        "count": 0,
+                        "target": 1,
+                        "done": false
+                    }
+                }
+            },
+            {
+                "type": "has",
+                "instruction": "",
+                "items": {
+                    "SAND": {
+                        "count": 0,
+                        "target": 0,
+                        "done": false
+                    }
+                }
+            },
+            {
+                "type": "area",
+                "instruction": "",
+                "area": "AREA_NAME_AS_SEEN_ON_TAB"
+            },
+            {
+                "type": "subArea",
+                "instruction": "",
+                "subArea": "SUB_AREA_AS_SEEN_ON_SCOREBOARD"
+            },
+            {
+                "type": "enchant",
+                "instruction": "",
+                "items": {
+                    "BANDAGED_MITHRIL_PICKAXE": {
+                        "enchants": [
+                            "Efficiency V",
+                            "Fortune III"
+                        ],
+                        "done": false
+                    },
+                    "GOLD_SPADE": {
+                        "enchants": [
+                            "Efficiency II"
+                        ],
+                        "done": false
+                    },
+                    "END_SWORD": {
+                        "enchants": [
+                            "Sharpness V"
+                        ],
+                        "done": false
+                    }
+                }
+            },
+            {
+                "type": "reforge",
+                "instruction": "",
+                "items": {
+                    "END_SWORD": {
+                        "reforges": [
+                            "Sharp",
+                            "Spicy"
+                        ],
+                        "done": false
+                    },
+                    "ENDER_NECKLACE": {
+                        "reforges": [
+                            "Brilliant"
+                        ],
+                        "done": false
+                    },
+                    "ROOKIE_HOE": {
+                        "reforges": [
+                            "Robust"
+                        ],
+                        "done": false
+                    }
+                }
+            },
+            {
+                "type": "guiItem",
+                "instruction": "",
+                "guiName": "TEXT_IN_TOP_LEFT_OF_GUI_MENU",
+                "itemIndex": 0,
+                "has": "ITEM_CONTAINS_THIS_TEXT_SOMEWHERE",
+                "doesntHave": "ITEM_DOES_NOT_CONTAIN_THIS_TEXT_ANYWHERE"
+            },
+            {
+                "type": "guiClickSlot",
+                "instruction": "",
+                "guiName": "TEXT_IN_TOP_LEFT_OF_GUI_MENU",
+                "slotIndex": 0
+            },
+            {
+                "type": "skill",
+                "instruction": "",
+                "skill": "combat",
+                "level": 0
+            },
+            {
+                "type": "collection",
+                "instruction": "",
+                "collection": "oak_log",
+                "level": 0
+            },
+            {
+                "type": "store",
+                "instruction": "",
+                "items": [
+                    "ABINGOPHONE",
+                    "COBBLESTONE_GENERATOR_1"
+                ]
+            },
+            {
+                "type": "retrieve",
+                "instruction": "",
+                "items": [
+                    "COBBLESTONE_GENERATOR_1"
+                ]
+            },
+            {
+                "type": "experience",
+                "instruction": "",
+                "level": 0
+            }
+        ]
+    }
+}

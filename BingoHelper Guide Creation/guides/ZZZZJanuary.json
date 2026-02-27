@@ -1,0 +1,5100 @@
+{
+    "name": "January 2026",
+    "version": 1,
+    "data": {
+        "stepIndex": 0,
+        "steps": [
+            {
+                "type": "message",
+                "instruction": "/visit %visitIsland%",
+                "criteria": "Sending a visit request...",
+                "command": "/visit %visitIsland%"
+            },
+            {
+                "type": "cake",
+                "instruction": "Eat cakes &b%cakes%",
+                "eaten": []
+            },
+            {
+                "type": "area",
+                "instruction": "Travel to the Hub",
+                "area": "Hub",
+                "command": "/warp stonks"
+            },
+            {
+                "type": "guiClickSlot",
+                "instruction": "Collect Rogue Sword",
+                "guiName": "Claim Reward",
+                "slotIndex": 22,
+                "waypoint": {
+                    "type": "list",
+                    "beam": true,
+                    "list": [
+                        {
+                            "text": "Jamie",
+                            "position": [
+                                -36.5,
+                                68,
+                                -39.5
+                            ],
+                            "radius": 0
+                        }
+                    ],
+                    "index": 0
+                },
+                "outlineEntity": {
+                    "entityType": "Villager",
+                    "position": [
+                        -36,
+                        68,
+                        -39
+                    ]
+                }
+            },
+            {
+                "type": "collection",
+                "instruction": "Unlock Wheat Collection 3",
+                "collection": "wheat",
+                "level": 3,
+                "waypoint": {
+                    "type": "list",
+                    "beam": true,
+                    "list": [
+                        {
+                            "text": "Wheat",
+                            "position": [
+                                42,
+                                70,
+                                -123
+                            ],
+                            "radius": 4
+                        },
+                        {
+                            "text": "Wheat",
+                            "position": [
+                                47,
+                                71,
+                                -137
+                            ],
+                            "radius": 3
+                        },
+                        {
+                            "text": "Wheat",
+                            "position": [
+                                63,
+                                71,
+                                -134
+                            ],
+                            "radius": 8
+                        },
+                        {
+                            "text": "Wheat",
+                            "position": [
+                                73,
+                                72,
+                                -162
+                            ],
+                            "radius": 7
+                        },
+                        {
+                            "text": "Wheat",
+                            "position": [
+                                59,
+                                72,
+                                -183
+                            ],
+                            "radius": 6
+                        },
+                        {
+                            "text": "Wheat",
+                            "position": [
+                                24,
+                                71,
+                                -179
+                            ],
+                            "radius": 6
+                        },
+                        {
+                            "text": "Wheat",
+                            "position": [
+                                28,
+                                70,
+                                -141
+                            ],
+                            "radius": 10
+                        },
+                        {
+                            "text": "Wheat",
+                            "position": [
+                                41,
+                                71,
+                                -137
+                            ],
+                            "radius": 100
+                        }
+                    ],
+                    "index": 0
+                }
+            },
+            {
+                "type": "skill",
+                "instruction": "Unlock Farming 5",
+                "skill": "farming",
+                "level": 5
+            },
+            {
+                "type": "sell",
+                "instruction": "Sell items",
+                "items": [
+                    "ANCIENT_CLAW",
+                    "POTATO_ITEM",
+                    "SEEDS"
+                ],
+                "command": "/trades"
+            },
+            {
+                "type": "guiClickSlot",
+                "instruction": "Craft Farm Suit Helmet",
+                "guiName": "Farm Suit Helmet Recipe",
+                "slotIndex": 32,
+                "command": "/viewrecipe FARM_SUIT_HELMET"
+            },
+            {
+                "type": "guiClickSlot",
+                "instruction": "Craft Farm Suit Chestplate",
+                "guiName": "Farm Suit Chestplate Recipe",
+                "slotIndex": 32,
+                "command": "/viewrecipe FARM_SUIT_CHESTPLATE"
+            },
+            {
+                "type": "guiClickSlot",
+                "instruction": "Craft Farm Suit Leggings",
+                "guiName": "Farm Suit Leggings Recipe",
+                "slotIndex": 32,
+                "command": "/viewrecipe FARM_SUIT_LEGGINGS"
+            },
+            {
+                "type": "guiClickSlot",
+                "instruction": "Craft Farm Suit Boots",
+                "guiName": "Farm Suit Boots Recipe",
+                "slotIndex": 32,
+                "command": "/viewrecipe FARM_SUIT_BOOTS"
+            },
+            {
+                "type": "sell",
+                "instruction": "Sell items",
+                "items": [
+                    "ANCIENT_CLAW",
+                    "HAY_BLOCK",
+                    "WHEAT",
+                    "SEEDS",
+                    "ENCHANTED_SEEDS",
+                    "NETHER_STALK"
+                ],
+                "command": "/trades"
+            },
+            {
+                "type": "store",
+                "instruction": "Store items",
+                "items": [
+                    "FARM_SUIT_HELMET",
+                    "FARM_SUIT_CHESTPLATE",
+                    "FARM_SUIT_LEGGINGS",
+                    "FARM_SUIT_BOOTS"
+                ],
+                "command": "/ec 2"
+            },
+            {
+                "type": "buy",
+                "instruction": "Buy Angler Armor\nBuy Angler Equipment\nBuy Fishing Rod &b%9%&r\nBuy Minnow Bait &b%10%&r",
+                "items": {
+                    "ANGLER_HELMET": {
+                        "count": 0,
+                        "target": 1,
+                        "done": false
+                    },
+                    "ANGLER_CHESTPLATE": {
+                        "count": 0,
+                        "target": 1,
+                        "done": false
+                    },
+                    "ANGLER_LEGGINGS": {
+                        "count": 0,
+                        "target": 1,
+                        "done": false
+                    },
+                    "ANGLER_BOOTS": {
+                        "count": 0,
+                        "target": 1,
+                        "done": false
+                    },
+                    "ANGLER_NECKLACE": {
+                        "count": 0,
+                        "target": 1,
+                        "done": false
+                    },
+                    "ANGLER_CLOAK": {
+                        "count": 0,
+                        "target": 1,
+                        "done": false
+                    },
+                    "ANGLER_BELT": {
+                        "count": 0,
+                        "target": 1,
+                        "done": false
+                    },
+                    "ANGLER_BRACELET": {
+                        "count": 0,
+                        "target": 1,
+                        "done": false
+                    },
+                    "FISHING_ROD": {
+                        "count": 0,
+                        "target": 1,
+                        "done": false
+                    },
+                    "MINNOW_BAIT": {
+                        "count": 0,
+                        "target": 128,
+                        "done": false
+                    }
+                },
+                "waypoint": {
+                    "type": "list",
+                    "beam": true,
+                    "list": [
+                        {
+                            "text": "Fish Merchant",
+                            "position": [
+                                52,
+                                68,
+                                -83
+                            ],
+                            "radius": 5
+                        }
+                    ],
+                    "index": 0
+                },
+                "outlineEntity": {
+                    "entityType": "Player",
+                    "position": [
+                        52.5,
+                        68,
+                        -82.5
+                    ]
+                }
+            },
+            {
+                "type": "buy",
+                "instruction": "Buy Oak Log &b%1%&r",
+                "items": {
+                    "LOG": {
+                        "count": 0,
+                        "target": 1,
+                        "done": false
+                    }
+                },
+                "waypoint": {
+                    "type": "list",
+                    "beam": true,
+                    "list": [
+                        {
+                            "text": "Lumber Merchant",
+                            "position": [
+                                -50,
+                                70,
+                                -68
+                            ],
+                            "radius": 0
+                        }
+                    ],
+                    "index": 0
+                },
+                "outlineEntity": {
+                    "entityType": "Player",
+                    "position": [
+                        -49.5,
+                        70.0,
+                        -67.5
+                    ]
+                }
+            },
+            {
+                "type": "has",
+                "instruction": "Craft Bowl",
+                "items": {
+                    "BOWL": {
+                        "count": 0,
+                        "target": 1,
+                        "done": false
+                    }
+                },
+                "command": "/craft"
+            },
+            {
+                "type": "sell",
+                "instruction": "Sell items",
+                "items": [
+                    "WOOD"
+                ],
+                "command": "/trades"
+            },
+            {
+                "type": "buy",
+                "instruction": "Buy Oak Logs &b%1%&r\nBuy Sticks &b%2%&r\nBuy Wooden Swords &b%3%&r\nBuy Wooden Shovel &b%4%&r",
+                "items": {
+                    "LOG": {
+                        "count": 0,
+                        "target": 8,
+                        "done": false
+                    },
+                    "STICK": {
+                        "count": 0,
+                        "target": 32,
+                        "done": false
+                    },
+                    "WOOD_SWORD": {
+                        "count": 0,
+                        "target": 2,
+                        "done": false
+                    },
+                    "WOOD_SPADE": {
+                        "count": 0,
+                        "target": 1,
+                        "done": false
+                    }
+                },
+                "waypoint": {
+                    "type": "list",
+                    "beam": true,
+                    "list": [
+                        {
+                            "text": "Lumber Merchant",
+                            "position": [
+                                -50,
+                                70,
+                                -68
+                            ],
+                            "radius": 0
+                        }
+                    ],
+                    "index": 0
+                },
+                "outlineEntity": {
+                    "entityType": "Player",
+                    "position": [
+                        -49.5,
+                        70.0,
+                        -67.5
+                    ]
+                }
+            },
+            {
+                "type": "store",
+                "instruction": "Store items",
+                "items": [
+                    "ABINGOPHONE",
+                    "MINNOW_BAIT",
+                    "BOWL",
+                    "LOG",
+                    "WOOD_SWORD",
+                    "WOOD_PICKAXE",
+                    "WOOD_SPADE"
+                ],
+                "command": "/ec 1"
+            },
+            {
+                "type": "message",
+                "instruction": "Talk to Librarian",
+                "criteria": "[NPC] Librarian: Greetings! Welcome to the Library!",
+                "waypoint": {
+                    "type": "list",
+                    "beam": true,
+                    "list": [
+                        {
+                            "text": "Librarian",
+                            "position": [
+                                -36,
+                                69,
+                                -113
+                            ],
+                            "radius": 0
+                        }
+                    ],
+                    "index": 0
+                },
+                "outlineEntity": {
+                    "entityType": "Villager",
+                    "position": [
+                        -35.5,
+                        69.0,
+                        -112.5
+                    ]
+                }
+            },
+            {
+                "type": "message",
+                "instruction": "Talk to Blacksmith",
+                "criteria": "[NPC] Blacksmith: I'm the town Blacksmith! I can reforge items for you, for a price.",
+                "waypoint": {
+                    "type": "list",
+                    "beam": true,
+                    "list": [
+                        {
+                            "text": "Blacksmith",
+                            "position": [
+                                -29,
+                                69,
+                                -126
+                            ],
+                            "radius": 0
+                        }
+                    ],
+                    "index": 0
+                },
+                "outlineEntity": {
+                    "entityType": "Villager",
+                    "position": [
+                        -28.5,
+                        69.0,
+                        -125.5
+                    ]
+                }
+            },
+            {
+                "type": "buy",
+                "instruction": "Buy Coal &b%1%&r\nBuy Gold Ingot &b%2%&r",
+                "items": {
+                    "COAL": {
+                        "count": 0,
+                        "target": 10,
+                        "done": false
+                    },
+                    "GOLD_INGOT": {
+                        "count": 0,
+                        "target": 4,
+                        "done": false
+                    }
+                },
+                "waypoint": {
+                    "type": "list",
+                    "beam": true,
+                    "list": [
+                        {
+                            "text": "Mine Merchant",
+                            "position": [
+                                -9.5,
+                                68,
+                                -125.5
+                            ],
+                            "radius": 0
+                        }
+                    ],
+                    "index": 0
+                },
+                "outlineEntity": {
+                    "entityType": "Player",
+                    "position": [
+                        -9.0,
+                        68.0,
+                        -125.0
+                    ]
+                }
+            },
+            {
+                "type": "message",
+                "instruction": "Drop and pick up Coal",
+                "criteria": "OBJECTIVE COMPLETE"
+            },
+            {
+                "type": "has",
+                "instruction": "Craft Golden Axe &b%1%&r\n&fCraft Golden Shovel &b%2%&r",
+                "items": {
+                    "GOLD_AXE": {
+                        "count": 0,
+                        "target": 1,
+                        "done": false
+                    },
+                    "GOLD_SPADE": {
+                        "count": 0,
+                        "target": 1,
+                        "done": false
+                    }
+                },
+                "command": "/craft"
+            },
+            {
+                "type": "buy",
+                "instruction": "Buy Experience Bottle &b%1%&r",
+                "items": {
+                    "EXP_BOTTLE": {
+                        "count": 0,
+                        "target": 1,
+                        "done": false
+                    }
+                },
+                "waypoint": {
+                    "type": "list",
+                    "beam": true,
+                    "list": [
+                        {
+                            "text": "Librarian",
+                            "position": [
+                                -36,
+                                69,
+                                -113
+                            ],
+                            "radius": 0
+                        }
+                    ],
+                    "index": 0
+                },
+                "outlineEntity": {
+                    "entityType": "Villager",
+                    "position": [
+                        -35.5,
+                        69.0,
+                        -112.5
+                    ]
+                }
+            },
+            {
+                "type": "store",
+                "instruction": "Store items",
+                "items": [
+                    "EXP_BOTTLE",
+                    "STICK"
+                ],
+                "command": "/ec 1"
+            },
+            {
+                "type": "enchant",
+                "instruction": "Enchant items\n&eGet splashed with grands\n&eOR\n&e1. Swap to main profile\n&e2. Join a hub-selector hub\n&e3. Throw a titanic in a corner\n&e4. Collect xp on bingo profile",
+                "items": {
+                    "GOLD_AXE": {
+                        "enchants": [
+                            "Efficiency V",
+                            "Silk Touch I"
+                        ],
+                        "done": false
+                    },
+                    "ANGLER_HELMET": {
+                        "enchants": [
+                            "Protection V",
+                            "Growth V"
+                        ],
+                        "done": false
+                    },
+                    "ANGLER_CHESTPLATE": {
+                        "enchants": [
+                            "Protection V",
+                            "Growth V"
+                        ],
+                        "done": false
+                    },
+                    "ANGLER_LEGGINGS": {
+                        "enchants": [
+                            "Protection V",
+                            "Growth V"
+                        ],
+                        "done": false
+                    },
+                    "ANGLER_BOOTS": {
+                        "enchants": [
+                            "Protection V",
+                            "Growth V",
+                            "Depth Strider III",
+                            "Feather Falling V"
+                        ],
+                        "done": false
+                    },
+                    "FISHING_ROD": {
+                        "enchants": [
+                            "Angler V",
+                            "Lure V",
+                            "Piscary V"
+                        ],
+                        "done": false
+                    },
+                    "ROGUE_SWORD": {
+                        "enchants": [
+                            "Sharpness V",
+                            "Smite V",
+                            "Looting III",
+                            "Critical V",
+                            "First Strike IV"
+                        ],
+                        "done": false
+                    }
+                },
+                "waypoint": {
+                    "type": "list",
+                    "beam": true,
+                    "list": [
+                        {
+                            "text": "Enchanting Table",
+                            "position": [
+                                -37,
+                                69,
+                                -111
+                            ],
+                            "radius": 0
+                        }
+                    ],
+                    "index": 0
+                }
+            },
+            {
+                "type": "experience",
+                "instruction": "Get 75 XP Levels &b%level%",
+                "level": 75
+            },
+            {
+                "type": "guiClickSlot",
+                "instruction": "Craft Experimentation Table",
+                "guiName": "Experimentation Table Recipe",
+                "slotIndex": 32,
+                "command": "/viewrecipe EXPERIMENTATION_TABLE"
+            },
+            {
+                "type": "reforge",
+                "instruction": "Reforge items",
+                "items": {
+                    "ANGLER_HELMET": {
+                        "reforges": [
+                            "Fierce"
+                        ],
+                        "done": false
+                    },
+                    "ANGLER_CHESTPLATE": {
+                        "reforges": [
+                            "Fierce"
+                        ],
+                        "done": false
+                    },
+                    "ANGLER_LEGGINGS": {
+                        "reforges": [
+                            "Fierce"
+                        ],
+                        "done": false
+                    },
+                    "ANGLER_BOOTS": {
+                        "reforges": [
+                            "Fierce"
+                        ],
+                        "done": false
+                    },
+                    "ANGLER_NECKLACE": {
+                        "reforges": [
+                            "Blended",
+                            "Honored",
+                            "Menacing",
+                            "Soft",
+                            "Stained"
+                        ],
+                        "done": false
+                    },
+                    "ANGLER_CLOAK": {
+                        "reforges": [
+                            "Blended",
+                            "Honored",
+                            "Menacing",
+                            "Soft",
+                            "Stained"
+                        ],
+                        "done": false
+                    },
+                    "ANGLER_BELT": {
+                        "reforges": [
+                            "Blended",
+                            "Honored",
+                            "Menacing",
+                            "Soft",
+                            "Stained"
+                        ],
+                        "done": false
+                    },
+                    "ANGLER_BRACELET": {
+                        "reforges": [
+                            "Blended",
+                            "Honored",
+                            "Menacing",
+                            "Soft",
+                            "Stained"
+                        ],
+                        "done": false
+                    }
+                },
+                "waypoint": {
+                    "type": "list",
+                    "beam": true,
+                    "list": [
+                        {
+                            "text": "Blacksmith",
+                            "position": [
+                                -29,
+                                69,
+                                -126
+                            ],
+                            "radius": 0
+                        }
+                    ],
+                    "index": 0
+                },
+                "outlineEntity": {
+                    "entityType": "Villager",
+                    "position": [
+                        -28.5,
+                        69.0,
+                        -125.5
+                    ]
+                }
+            },
+            {
+                "type": "sell",
+                "instruction": "Equip Angler Armor",
+                "items": [
+                    "ANGLER_HELMET",
+                    "ANGLER_CHESTPLATE",
+                    "ANGLER_LEGGINGS",
+                    "ANGLER_BOOTS",
+                    "ANGLER_NECKLACE",
+                    "ANGLER_CLOAK",
+                    "ANGLER_BELT",
+                    "ANGLER_BRACELET"
+                ],
+                "command": "/equipment"
+            },
+            {
+                "type": "message",
+                "instruction": "/warp stonks",
+                "criteria": "Warping...",
+                "command": "/warp stonks"
+            },
+            {
+                "type": "buy",
+                "instruction": "Buy Yellow Stained Glass &b%1%",
+                "items": {
+                    "STAINED_GLASS:4": {
+                        "count": 0,
+                        "target": 20,
+                        "done": false
+                    }
+                },
+                "waypoint": {
+                    "type": "list",
+                    "beam": true,
+                    "list": [
+                        {
+                            "text": "Wool Weaver",
+                            "position": [
+                                -47.5,
+                                74,
+                                -31
+                            ],
+                            "radius": 0
+                        }
+                    ],
+                    "index": 0
+                },
+                "outlineEntity": {
+                    "entityType": "Player",
+                    "position": [
+                        -47.0,
+                        74.0,
+                        -30.5
+                    ]
+                }
+            },
+            {
+                "type": "guiClickSlot",
+                "instruction": "Buy Glowstone &b(0/1)&r",
+                "guiName": "Builder",
+                "slotIndex": 16,
+                "waypoint": {
+                    "type": "list",
+                    "beam": true,
+                    "list": [
+                        {
+                            "text": "Builder",
+                            "position": [
+                                -51.5,
+                                71,
+                                -28
+                            ],
+                            "radius": 3
+                        }
+                    ],
+                    "index": 0
+                },
+                "outlineEntity": {
+                    "entityType": "Player",
+                    "position": [
+                        -51.0,
+                        71.0,
+                        -27.5
+                    ]
+                }
+            },
+            {
+                "type": "buy",
+                "instruction": "Buy Glowstone &b%1%",
+                "items": {
+                    "GLOWSTONE": {
+                        "count": 0,
+                        "target": 1,
+                        "done": false
+                    }
+                },
+                "waypoint": {
+                    "type": "list",
+                    "beam": true,
+                    "list": [
+                        {
+                            "text": "Builder",
+                            "position": [
+                                -51.5,
+                                71,
+                                -28
+                            ],
+                            "radius": 3
+                        }
+                    ],
+                    "index": 0
+                },
+                "outlineEntity": {
+                    "entityType": "Player",
+                    "position": [
+                        -51.0,
+                        71.0,
+                        -27.5
+                    ]
+                }
+            },
+            {
+                "type": "buy",
+                "instruction": "Buy Redstone &b%1%",
+                "items": {
+                    "REDSTONE": {
+                        "count": 0,
+                        "target": 640,
+                        "done": false
+                    }
+                },
+                "waypoint": {
+                    "type": "list",
+                    "beam": true,
+                    "list": [
+                        {
+                            "text": "[!]",
+                            "position": [
+                                -51,
+                                71,
+                                -30
+                            ],
+                            "radius": 5
+                        },
+                        {
+                            "text": "[!]",
+                            "position": [
+                                -47,
+                                69,
+                                -32
+                            ],
+                            "radius": 3
+                        },
+                        {
+                            "text": "Redstone Engineer",
+                            "position": [
+                                -52.5,
+                                65,
+                                -29.5
+                            ],
+                            "radius": 0
+                        }
+                    ],
+                    "index": 0
+                },
+                "outlineEntity": {
+                    "entityType": "Player",
+                    "position": [
+                        -52.0,
+                        65.0,
+                        -29.0
+                    ]
+                }
+            },
+            {
+                "type": "store",
+                "instruction": "Store items",
+                "items": [
+                    "REDSTONE",
+                    "FISHING_ROD"
+                ],
+                "command": "/ec 1"
+            },
+            {
+                "type": "area",
+                "instruction": "/is",
+                "area": "Private Island",
+                "command": "/is"
+            },
+            {
+                "type": "has",
+                "instruction": "Place and break Glowstone",
+                "items": {
+                    "GLOWSTONE_DUST": {
+                        "count": 0,
+                        "target": 1,
+                        "done": false
+                    }
+                }
+            },
+            {
+                "type": "guiClickSlot",
+                "instruction": "Pick up Cobblestone Minion",
+                "guiName": "Cobblestone Minion I",
+                "slotIndex": 53,
+                "waypoint": {
+                    "type": "list",
+                    "beam": true,
+                    "list": [
+                        {
+                            "text": "[!]",
+                            "position": [
+                                3,
+                                99.5,
+                                36
+                            ],
+                            "radius": 0
+                        }
+                    ],
+                    "index": 0
+                },
+                "outlineEntity": {
+                    "entityType": "Armor Stand",
+                    "position": [
+                        3.5,
+                        100.0,
+                        36.5
+                    ]
+                }
+            },
+            {
+                "type": "has",
+                "instruction": "Wait for inventory update",
+                "items": {
+                    "COBBLESTONE_GENERATOR_1": {
+                        "count": 0,
+                        "target": 1,
+                        "done": false
+                    }
+                }
+            },
+            {
+                "type": "guiClickSlot",
+                "instruction": "Get Move Jerry Egg",
+                "guiName": "Jerry The Assistant",
+                "slotIndex": 35,
+                "waypoint": {
+                    "type": "list",
+                    "beam": true,
+                    "list": [
+                        {
+                            "text": "[!]",
+                            "position": [
+                                9,
+                                100,
+                                33
+                            ],
+                            "radius": 0
+                        }
+                    ],
+                    "index": 0
+                },
+                "outlineEntity": {
+                    "entityType": "Villager",
+                    "position": [
+                        9.5,
+                        100.0,
+                        33.5
+                    ]
+                }
+            },
+            {
+                "type": "has",
+                "instruction": "Wait for inventory update",
+                "items": {
+                    "ASSISTANT": {
+                        "count": 0,
+                        "target": 1,
+                        "done": false
+                    }
+                }
+            },
+            {
+                "type": "store",
+                "instruction": "Store items",
+                "items": [
+                    "GLOWSTONE_DUST",
+                    "COBBLESTONE_GENERATOR_1",
+                    "ASSISTANT"
+                ],
+                "command": "/ec 1"
+            },
+            {
+                "type": "guiClickSlot",
+                "instruction": "Get Move Jerry Egg",
+                "guiName": "Jerry The Assistant",
+                "slotIndex": 35,
+                "command": "/jerry",
+                "waypoint": {
+                    "type": "list",
+                    "beam": true,
+                    "list": [
+                        {
+                            "text": "[!]",
+                            "position": [
+                                9,
+                                100,
+                                33
+                            ],
+                            "radius": 0
+                        }
+                    ],
+                    "index": 0
+                },
+                "outlineEntity": {
+                    "entityType": "Villager",
+                    "position": [
+                        9.5,
+                        100.0,
+                        33.5
+                    ]
+                }
+            },
+            {
+                "type": "has",
+                "instruction": "Wait for inventory update",
+                "items": {
+                    "ASSISTANT": {
+                        "count": 0,
+                        "target": 1,
+                        "done": false
+                    }
+                }
+            },
+            {
+                "type": "store",
+                "instruction": "Store items",
+                "items": [
+                    "ASSISTANT"
+                ],
+                "command": "/ec 1"
+            },
+            {
+                "type": "guiClickSlot",
+                "instruction": "Get Move Jerry Egg",
+                "guiName": "Jerry The Assistant",
+                "slotIndex": 35,
+                "command": "/jerry",
+                "waypoint": {
+                    "type": "list",
+                    "beam": true,
+                    "list": [
+                        {
+                            "text": "[!]",
+                            "position": [
+                                9,
+                                100,
+                                33
+                            ],
+                            "radius": 0
+                        }
+                    ],
+                    "index": 0
+                },
+                "outlineEntity": {
+                    "entityType": "Villager",
+                    "position": [
+                        9.5,
+                        100.0,
+                        33.5
+                    ]
+                }
+            },
+            {
+                "type": "has",
+                "instruction": "Wait for inventory update",
+                "items": {
+                    "ASSISTANT": {
+                        "count": 0,
+                        "target": 1,
+                        "done": false
+                    }
+                }
+            },
+            {
+                "type": "store",
+                "instruction": "Store items",
+                "items": [
+                    "ASSISTANT"
+                ],
+                "command": "/ec 1"
+            },
+            {
+                "type": "guiClickSlot",
+                "instruction": "Get Move Jerry Egg",
+                "guiName": "Jerry The Assistant",
+                "slotIndex": 35,
+                "command": "/jerry",
+                "waypoint": {
+                    "type": "list",
+                    "beam": true,
+                    "list": [
+                        {
+                            "text": "[!]",
+                            "position": [
+                                9,
+                                100,
+                                33
+                            ],
+                            "radius": 0
+                        }
+                    ],
+                    "index": 0
+                },
+                "outlineEntity": {
+                    "entityType": "Villager",
+                    "position": [
+                        9.5,
+                        100.0,
+                        33.5
+                    ]
+                }
+            },
+            {
+                "type": "has",
+                "instruction": "Wait for inventory update",
+                "items": {
+                    "ASSISTANT": {
+                        "count": 0,
+                        "target": 1,
+                        "done": false
+                    }
+                }
+            },
+            {
+                "type": "store",
+                "instruction": "Store items",
+                "items": [
+                    "ASSISTANT"
+                ],
+                "command": "/ec 1"
+            },
+            {
+                "type": "guiClickSlot",
+                "instruction": "Get Move Jerry Egg",
+                "guiName": "Jerry The Assistant",
+                "slotIndex": 35,
+                "command": "/jerry",
+                "waypoint": {
+                    "type": "list",
+                    "beam": true,
+                    "list": [
+                        {
+                            "text": "[!]",
+                            "position": [
+                                9,
+                                100,
+                                33
+                            ],
+                            "radius": 0
+                        }
+                    ],
+                    "index": 0
+                },
+                "outlineEntity": {
+                    "entityType": "Villager",
+                    "position": [
+                        9.5,
+                        100.0,
+                        33.5
+                    ]
+                }
+            },
+            {
+                "type": "has",
+                "instruction": "Wait for inventory update",
+                "items": {
+                    "ASSISTANT": {
+                        "count": 0,
+                        "target": 1,
+                        "done": false
+                    }
+                }
+            },
+            {
+                "type": "store",
+                "instruction": "Store items",
+                "items": [
+                    "ASSISTANT"
+                ],
+                "command": "/ec 1"
+            },
+            {
+                "type": "guiClickSlot",
+                "instruction": "Get Move Jerry Egg",
+                "guiName": "Jerry The Assistant",
+                "slotIndex": 35,
+                "command": "/jerry",
+                "waypoint": {
+                    "type": "list",
+                    "beam": true,
+                    "list": [
+                        {
+                            "text": "[!]",
+                            "position": [
+                                9,
+                                100,
+                                33
+                            ],
+                            "radius": 0
+                        }
+                    ],
+                    "index": 0
+                },
+                "outlineEntity": {
+                    "entityType": "Villager",
+                    "position": [
+                        9.5,
+                        100.0,
+                        33.5
+                    ]
+                }
+            },
+            {
+                "type": "has",
+                "instruction": "Wait for inventory update",
+                "items": {
+                    "ASSISTANT": {
+                        "count": 0,
+                        "target": 1,
+                        "done": false
+                    }
+                }
+            },
+            {
+                "type": "store",
+                "instruction": "Store items",
+                "items": [
+                    "ASSISTANT"
+                ],
+                "command": "/ec 1"
+            },
+            {
+                "type": "guiClickSlot",
+                "instruction": "Get Move Jerry Egg",
+                "guiName": "Jerry The Assistant",
+                "slotIndex": 35,
+                "command": "/jerry",
+                "waypoint": {
+                    "type": "list",
+                    "beam": true,
+                    "list": [
+                        {
+                            "text": "[!]",
+                            "position": [
+                                9,
+                                100,
+                                33
+                            ],
+                            "radius": 0
+                        }
+                    ],
+                    "index": 0
+                },
+                "outlineEntity": {
+                    "entityType": "Villager",
+                    "position": [
+                        9.5,
+                        100.0,
+                        33.5
+                    ]
+                }
+            },
+            {
+                "type": "has",
+                "instruction": "Wait for inventory update",
+                "items": {
+                    "ASSISTANT": {
+                        "count": 0,
+                        "target": 1,
+                        "done": false
+                    }
+                }
+            },
+            {
+                "type": "store",
+                "instruction": "Store items",
+                "items": [
+                    "ASSISTANT"
+                ],
+                "command": "/ec 1"
+            },
+            {
+                "type": "guiClickSlot",
+                "instruction": "Get Move Jerry Egg",
+                "guiName": "Jerry The Assistant",
+                "slotIndex": 35,
+                "command": "/jerry",
+                "waypoint": {
+                    "type": "list",
+                    "beam": true,
+                    "list": [
+                        {
+                            "text": "[!]",
+                            "position": [
+                                9,
+                                100,
+                                33
+                            ],
+                            "radius": 0
+                        }
+                    ],
+                    "index": 0
+                },
+                "outlineEntity": {
+                    "entityType": "Villager",
+                    "position": [
+                        9.5,
+                        100.0,
+                        33.5
+                    ]
+                }
+            },
+            {
+                "type": "has",
+                "instruction": "Wait for inventory update",
+                "items": {
+                    "ASSISTANT": {
+                        "count": 0,
+                        "target": 1,
+                        "done": false
+                    }
+                }
+            },
+            {
+                "type": "store",
+                "instruction": "Store items",
+                "items": [
+                    "ASSISTANT"
+                ],
+                "command": "/ec 1"
+            },
+            {
+                "type": "sell",
+                "instruction": "Sell items",
+                "items": [
+                    "ANCIENT_CLAW",
+                    "COBBLESTONE",
+                    "ROTTEN_FLESH",
+                    "SULPHUR",
+                    "STRING",
+                    "SPIDER_EYE",
+                    "ENDER_PEARL"
+                ],
+                "command": "/trades"
+            },
+            {
+                "type": "message",
+                "instruction": "/warp island",
+                "criteria": "Warping...",
+                "command": "/warp island"
+            },
+            {
+                "type": "message",
+                "instruction": "Place Experimentation Table",
+                "criteria": "You placed an Experimentation Table"
+            },
+            {
+                "type": "message",
+                "instruction": "Do 1st superpairs\n&cRemember to get 3 pairs",
+                "criteria": "You claimed the Superpairs rewards!"
+            },
+            {
+                "type": "message",
+                "instruction": "Do 2nd superpairs",
+                "criteria": "You claimed the Superpairs rewards!"
+            },
+            {
+                "type": "message",
+                "instruction": "Do 3rd superpairs",
+                "criteria": "You claimed the Superpairs rewards!"
+            },
+            {
+                "type": "area",
+                "instruction": "/warp stonks",
+                "area": "Hub",
+                "command": "/warp stonks"
+            },
+            {
+                "type": "collection",
+                "instruction": "Unlock Rotten Flesh 2",
+                "collection": "rotten_flesh",
+                "level": 2,
+                "waypoint": {
+                    "type": "list",
+                    "beam": true,
+                    "list": [
+                        {
+                            "text": "Zombies",
+                            "position": [
+                                -113,
+                                71,
+                                -66
+                            ],
+                            "radius": 15
+                        },
+                        {
+                            "text": "Zombies",
+                            "position": [
+                                -127,
+                                73,
+                                -126
+                            ],
+                            "radius": 100
+                        }
+                    ],
+                    "index": 0
+                }
+            },
+            {
+                "type": "guiClickSlot",
+                "instruction": "Craft Zombie Pickaxe",
+                "guiName": "Zombie Pickaxe Recipe",
+                "slotIndex": 32,
+                "command": "/viewrecipe ZOMBIE_PICKAXE"
+            },
+            {
+                "type": "sell",
+                "instruction": "Sell items",
+                "items": [
+                    "ANCIENT_CLAW",
+                    "POISONOUS_POTATO",
+                    "RUNE",
+                    "LOG",
+                    "ROTTEN_FLESH",
+                    "POTATO_ITEM",
+                    "CARROT_ITEM"
+                ],
+                "command": "/trades"
+            },
+            {
+                "type": "area",
+                "instruction": "/warp spider",
+                "area": "Spider's Den",
+                "command": "/warp spider"
+            },
+            {
+                "type": "message",
+                "instruction": "Talk to Bramass",
+                "criteria": "[NPC] Bramass Beastslayer: Hello, adventurer! I am Bramass Beastslayer! I've slain beasts of all sorts across SkyBlock!",
+                "waypoint": {
+                    "type": "list",
+                    "beam": true,
+                    "list": [
+                        {
+                            "text": "Bramass",
+                            "position": [
+                                -272,
+                                113,
+                                -197
+                            ],
+                            "radius": 0
+                        }
+                    ],
+                    "index": 0
+                },
+                "outlineEntity": {
+                    "entityType": "Player",
+                    "position": [
+                        -271.5,
+                        113.0,
+                        -196.5
+                    ]
+                }
+            },
+            {
+                "type": "message",
+                "instruction": "Talk to Grandma Wolf",
+                "criteria": "[NPC] Grandma Wolf: I've added the Grandma Wolf Pet to your Pets Menu.",
+                "waypoint": {
+                    "type": "list",
+                    "beam": true,
+                    "list": [
+                        {
+                            "text": "Grandma Wolf",
+                            "position": [
+                                -282,
+                                122,
+                                -191
+                            ],
+                            "radius": 0
+                        }
+                    ],
+                    "index": 0
+                },
+                "outlineEntity": {
+                    "entityType": "Player",
+                    "position": [
+                        -281.5,
+                        122.0,
+                        -190.5
+                    ]
+                }
+            },
+            {
+                "type": "message",
+                "instruction": "Talk to Michael",
+                "criteria": "[NPC] Michael: Go talk to him if you want to learn more!",
+                "waypoint": {
+                    "type": "list",
+                    "beam": true,
+                    "list": [
+                        {
+                            "text": "[!]",
+                            "position": [
+                                -281.5,
+                                122,
+                                -199
+                            ],
+                            "radius": 5
+                        },
+                        {
+                            "text": "[!]",
+                            "position": [
+                                -257,
+                                93,
+                                -275
+                            ],
+                            "radius": 30
+                        },
+                        {
+                            "text": "Michael",
+                            "position": [
+                                -265,
+                                94.5,
+                                -285
+                            ],
+                            "radius": 0
+                        }
+                    ],
+                    "index": 0
+                },
+                "outlineEntity": {
+                    "entityType": "Player",
+                    "position": [
+                        -264.5,
+                        94.5,
+                        -284.5
+                    ]
+                }
+            },
+            {
+                "type": "message",
+                "instruction": "Talk to Ike",
+                "criteria": "[NPC] Ike: Talk to me again if you want to check your progress!",
+                "waypoint": {
+                    "type": "list",
+                    "beam": true,
+                    "list": [
+                        {
+                            "text": "Ike",
+                            "position": [
+                                -261,
+                                94.5,
+                                -285
+                            ],
+                            "radius": 0
+                        }
+                    ],
+                    "index": 0
+                },
+                "outlineEntity": {
+                    "entityType": "Player",
+                    "position": [
+                        -260.5,
+                        94.5,
+                        -284.5
+                    ]
+                }
+            },
+            {
+                "type": "area",
+                "instruction": "/warp barn",
+                "area": "The Farming Islands",
+                "command": "/warp barn"
+            },
+            {
+                "type": "has",
+                "instruction": "Get Raw Porkchop &b%1%&r\nGet Eggs &b%2%&r",
+                "items": {
+                    "PORK": {
+                        "count": 0,
+                        "target": 64,
+                        "done": false
+                    },
+                    "EGG": {
+                        "count": 0,
+                        "target": 2,
+                        "done": false
+                    }
+                }
+            },
+            {
+                "type": "guiClickSlot",
+                "instruction": "Claim Animal Reward",
+                "guiName": "Collected Mob Types",
+                "slotIndex": 11,
+                "command": "/mobtypes"
+            },
+            {
+                "type": "guiClickSlot",
+                "instruction": "Navigate to Pig Minion Recipes",
+                "guiName": "Pig Minion Recipes",
+                "slotIndex": 11,
+                "command": "/viewrecipe PIG_GENERATOR_1"
+            },
+            {
+                "type": "guiClickSlot",
+                "instruction": "Craft Pig Minion I",
+                "guiName": "Pig Minion I Recipe",
+                "slotIndex": 32
+            },
+            {
+                "type": "guiClickSlot",
+                "instruction": "Craft Jerry Pet",
+                "guiName": "Jerry Pet Recipe",
+                "slotIndex": 32,
+                "command": "/viewrecipe JERRY"
+            },
+            {
+                "type": "message",
+                "instruction": "Add Jerry to Pet Menu",
+                "criteria": "Successfully added Jerry to your pet menu!"
+            },
+            {
+                "type": "store",
+                "instruction": "Store items",
+                "items": [
+                    "EGG"
+                ],
+                "command": "/ec 1"
+            },
+            {
+                "type": "sell",
+                "instruction": "Sell items",
+                "items": [
+                    "ANCIENT_CLAW",
+                    "FEATHER",
+                    "LEATHER",
+                    "RAW_BEEF",
+                    "POTATO_ITEM",
+                    "WHEAT",
+                    "SEEDS",
+                    "CARROT_ITEM",
+                    "PUMPKIN",
+                    "MELON_BLOCK",
+                    "MELON",
+                    "PORK",
+                    "RAW_CHICKEN"
+                ],
+                "command": "/trades"
+            },
+            {
+                "type": "message",
+                "instruction": "/warp desert",
+                "criteria": "Warping...",
+                "command": "/warp desert"
+            },
+            {
+                "type": "has",
+                "instruction": "Mine Sand &b%1%&r",
+                "items": {
+                    "SAND": {
+                        "count": 0,
+                        "target": 80,
+                        "done": false
+                    }
+                },
+                "waypoint": {
+                    "type": "list",
+                    "beam": true,
+                    "list": [
+                        {
+                            "text": "[!]",
+                            "position": [
+                                208,
+                                77,
+                                -372
+                            ],
+                            "radius": 20
+                        },
+                        {
+                            "text": "[!]",
+                            "position": [
+                                208,
+                                77,
+                                -372
+                            ],
+                            "radius": 100
+                        }
+                    ],
+                    "index": 0
+                }
+            },
+            {
+                "type": "guiClickSlot",
+                "instruction": "Navigate to Sand Minion Recipes",
+                "guiName": "Sand Minion Recipes",
+                "slotIndex": 11,
+                "command": "/viewrecipe SAND_GENERATOR_1"
+            },
+            {
+                "type": "guiClickSlot",
+                "instruction": "Craft Sand Minion I",
+                "guiName": "Sand Minion I Recipe",
+                "slotIndex": 32
+            },
+            {
+                "type": "has",
+                "instruction": "Mine Sand &b%1%",
+                "items": {
+                    "SAND": {
+                        "count": 0,
+                        "target": 160,
+                        "done": false
+                    }
+                }
+            },
+            {
+                "type": "guiClickSlot",
+                "instruction": "Navigate to Sand Minion Recipes",
+                "guiName": "Sand Minion Recipes",
+                "slotIndex": 12,
+                "command": "/viewrecipe SAND_GENERATOR_2"
+            },
+            {
+                "type": "guiClickSlot",
+                "instruction": "Craft Sand Minion II",
+                "guiName": "Sand Minion II Recipe",
+                "slotIndex": 32
+            },
+            {
+                "type": "has",
+                "instruction": "Mine Sand &b%1%",
+                "items": {
+                    "SAND": {
+                        "count": 0,
+                        "target": 320,
+                        "done": false
+                    }
+                }
+            },
+            {
+                "type": "guiClickSlot",
+                "instruction": "Navigate to Sand Minion Recipes",
+                "guiName": "Sand Minion Recipes",
+                "slotIndex": 13,
+                "command": "/viewrecipe SAND_GENERATOR_3"
+            },
+            {
+                "type": "guiClickSlot",
+                "instruction": "Craft Sand Minion III",
+                "guiName": "Sand Minion III Recipe",
+                "slotIndex": 32
+            },
+            {
+                "type": "has",
+                "instruction": "Mine Sand &b%1%",
+                "items": {
+                    "SAND": {
+                        "count": 0,
+                        "target": 512,
+                        "done": false
+                    }
+                }
+            },
+            {
+                "type": "guiClickSlot",
+                "instruction": "Navigate to Sand Minion Recipes",
+                "guiName": "Sand Minion Recipes",
+                "slotIndex": 14,
+                "command": "/viewrecipe SAND_GENERATOR_4"
+            },
+            {
+                "type": "guiClickSlot",
+                "instruction": "Craft Sand Minion IV",
+                "guiName": "Sand Minion IV Recipe",
+                "slotIndex": 32
+            },
+            {
+                "type": "has",
+                "instruction": "Get Enchanted Sand &b%1%",
+                "items": {
+                    "ENCHANTED_SAND": {
+                        "count": 0,
+                        "target": 8,
+                        "done": false
+                    }
+                }
+            },
+            {
+                "type": "guiClickSlot",
+                "instruction": "Navigate to Sand Minion Recipes",
+                "guiName": "Sand Minion Recipes",
+                "slotIndex": 15,
+                "command": "/viewrecipe SAND_GENERATOR_5"
+            },
+            {
+                "type": "guiClickSlot",
+                "instruction": "Craft Sand Minion V",
+                "guiName": "Sand Minion V Recipe",
+                "slotIndex": 32
+            },
+            {
+                "type": "has",
+                "instruction": "Wait for inventory update",
+                "items": {
+                    "SAND_GENERATOR_5": {
+                        "count": 0,
+                        "target": 1,
+                        "done": false
+                    }
+                }
+            },
+            {
+                "type": "skill",
+                "instruction": "Unlock Mining 11.75",
+                "skill": "mining",
+                "level": 11.75
+            },
+            {
+                "type": "store",
+                "instruction": "Store items",
+                "items": [
+                    "SAND_GENERATOR_5",
+                    "GOLD_SPADE"
+                ],
+                "command": "/ec 1"
+            },
+            {
+                "type": "collection",
+                "instruction": "Unlock Mushroom Collection 4\n&7(Use Silk-Touch Axe on big Mushrooms)",
+                "collection": "mushroom",
+                "level": 4,
+                "waypoint": {
+                    "type": "list",
+                    "beam": true,
+                    "list": [
+                        {
+                            "text": "[!]",
+                            "position": [
+                                331,
+                                73,
+                                -422
+                            ],
+                            "radius": 12
+                        },
+                        {
+                            "text": "[!]",
+                            "position": [
+                                339,
+                                73,
+                                -446
+                            ],
+                            "radius": 12
+                        },
+                        {
+                            "text": "[!]",
+                            "position": [
+                                302,
+                                79,
+                                -472
+                            ],
+                            "radius": 12
+                        },
+                        {
+                            "text": "[!]",
+                            "position": [
+                                255,
+                                51,
+                                -471
+                            ],
+                            "radius": 12
+                        },
+                        {
+                            "text": "[!]",
+                            "position": [
+                                256,
+                                57,
+                                -430
+                            ],
+                            "radius": 12
+                        },
+                        {
+                            "text": "Mushrooms",
+                            "position": [
+                                239,
+                                57,
+                                -398
+                            ],
+                            "radius": 20
+                        },
+                        {
+                            "text": "Mushrooms",
+                            "position": [
+                                213,
+                                43,
+                                -447
+                            ],
+                            "radius": 20
+                        },
+                        {
+                            "text": "Mushrooms",
+                            "position": [
+                                213,
+                                43,
+                                -447
+                            ],
+                            "radius": 300
+                        }
+                    ],
+                    "index": 0
+                }
+            },
+            {
+                "type": "sell",
+                "instruction": "Sell items",
+                "items": [
+                    "HUGE_MUSHROOM_1",
+                    "HUGE_MUSHROOM_2",
+                    "ANCIENT_CLAW",
+                    "SAND",
+                    "ENCHANTED_SAND",
+                    "CACTUS",
+                    "LEATHER",
+                    "RAW_BEEF"
+                ],
+                "command": "/trades"
+            },
+            {
+                "type": "has",
+                "instruction": "Get Brown Mushroom &b%1%&r\nGet Red Mushroom &b%2%&r",
+                "items": {
+                    "BROWN_MUSHROOM": {
+                        "count": 0,
+                        "target": 1,
+                        "done": false
+                    },
+                    "RED_MUSHROOM": {
+                        "count": 0,
+                        "target": 1,
+                        "done": false
+                    }
+                }
+            },
+            {
+                "type": "guiClickSlot",
+                "instruction": "Craft Magical Mushroom Soup",
+                "guiName": "Magical Mushroom Soup Recipe",
+                "slotIndex": 32,
+                "command": "/viewrecipe MAGIC_MUSHROOM_SOUP"
+            },
+            {
+                "type": "sell",
+                "instruction": "Sell items",
+                "items": [
+                    "RED_MUSHROOM",
+                    "BROWN_MUSHROOM",
+                    "LEATHER",
+                    "RAW_BEEF"
+                ],
+                "command": "/trades"
+            },
+            {
+                "type": "area",
+                "instruction": "/is",
+                "area": "Private Island",
+                "command": "/is"
+            },
+            {
+                "type": "message",
+                "instruction": "Consume Magical Mushroom Soup",
+                "criteria": "You can now fly for 2 minutes."
+            },
+            {
+                "type": "message",
+                "instruction": "Place Pig Minion\n&cDon't forget a storage!",
+                "criteria": "You placed a minion!"
+            },
+            {
+                "type": "area",
+                "instruction": "/hub",
+                "area": "Hub",
+                "command": "/hub"
+            },
+            {
+                "type": "buy",
+                "instruction": "Buy Red Mushrooms &b%1%",
+                "items": {
+                    "RED_MUSHROOM": {
+                        "count": 0,
+                        "target": 24,
+                        "done": false
+                    }
+                },
+                "waypoint": {
+                    "type": "list",
+                    "beam": true,
+                    "list": [
+                        {
+                            "text": "Farm Merchant",
+                            "position": [
+                                15,
+                                70,
+                                -72.35
+                            ],
+                            "radius": 0
+                        }
+                    ],
+                    "index": 0
+                },
+                "outlineEntity": {
+                    "entityType": "Player",
+                    "position": [
+                        15.5,
+                        70.0,
+                        -71.8125
+                    ]
+                }
+            },
+            {
+                "type": "guiClickSlot",
+                "instruction": "Craft Mushroom Helmet",
+                "guiName": "Mushroom Helmet Recipe",
+                "slotIndex": 32,
+                "command": "/viewrecipe MUSHROOM_HELMET"
+            },
+            {
+                "type": "guiClickSlot",
+                "instruction": "Craft Mushroom Chestplate",
+                "guiName": "Mushroom Chestplate Recipe",
+                "slotIndex": 32,
+                "command": "/viewrecipe MUSHROOM_CHESTPLATE"
+            },
+            {
+                "type": "guiClickSlot",
+                "instruction": "Craft Mushroom Leggings",
+                "guiName": "Mushroom Leggings Recipe",
+                "slotIndex": 32,
+                "command": "/viewrecipe MUSHROOM_LEGGINGS"
+            },
+            {
+                "type": "guiClickSlot",
+                "instruction": "Craft Mushroom Boots",
+                "guiName": "Mushroom Boots Recipe",
+                "slotIndex": 32,
+                "command": "/viewrecipe MUSHROOM_BOOTS"
+            },
+            {
+                "type": "store",
+                "instruction": "Store items",
+                "items": [
+                    "MUSHROOM_HELMET",
+                    "MUSHROOM_CHESTPLATE",
+                    "MUSHROOM_LEGGINGS",
+                    "MUSHROOM_BOOTS"
+                ],
+                "command": "/ec 2"
+            },
+            {
+                "type": "message",
+                "instruction": "/warp hub",
+                "criteria": "Warping...",
+                "command": "/warp hub"
+            },
+            {
+                "type": "enchant",
+                "instruction": "Enchant items",
+                "items": {
+                    "ZOMBIE_PICKAXE": {
+                        "enchants": [
+                            "Efficiency V",
+                            "Fortune III"
+                        ],
+                        "done": false
+                    }
+                },
+                "waypoint": {
+                    "type": "list",
+                    "beam": true,
+                    "list": [
+                        {
+                            "text": "Enchanting Table",
+                            "position": [
+                                -37,
+                                69,
+                                -111
+                            ],
+                            "radius": 0
+                        }
+                    ],
+                    "index": 0
+                }
+            },
+            {
+                "type": "buy",
+                "instruction": "Buy Black Diamond &b%1%",
+                "items": {
+                    "ONYX": {
+                        "count": 0,
+                        "target": 1,
+                        "done": false
+                    }
+                },
+                "waypoint": {
+                    "type": "list",
+                    "beam": true,
+                    "list": [
+                        {
+                            "text": "Mine Merchant",
+                            "position": [
+                                -9.5,
+                                68,
+                                -125.5
+                            ],
+                            "radius": 0
+                        }
+                    ],
+                    "index": 0
+                },
+                "outlineEntity": {
+                    "entityType": "Player",
+                    "position": [
+                        -9.0,
+                        68.0,
+                        -125.0
+                    ]
+                }
+            },
+            {
+                "type": "guiItem",
+                "instruction": "Apply Black Diamond to Zombie Pickaxe",
+                "guiName": "Reforge Anvil",
+                "itemIndex": 13,
+                "has": "Fruitful Zombie Pickaxe",
+                "doesntHave": "Click the ANVIL BELOW to combine.",
+                "highlight": false,
+                "waypoint": {
+                    "type": "list",
+                    "beam": true,
+                    "list": [
+                        {
+                            "text": "Reforge Anvil",
+                            "position": [
+                                -29,
+                                69,
+                                -137
+                            ],
+                            "radius": 0
+                        }
+                    ],
+                    "index": 0
+                }
+            },
+            {
+                "type": "area",
+                "instruction": "/warp deep",
+                "area": "Deep Caverns",
+                "command": "/warp deep"
+            },
+            {
+                "type": "message",
+                "instruction": "Kill a Lapis Zombie",
+                "criteria": "BESTIARY FAMILY UNLOCKED Lapis Zombie",
+                "waypoint": {
+                    "type": "list",
+                    "beam": true,
+                    "list": [
+                        {
+                            "text": "[!]",
+                            "position": [
+                                -24,
+                                154,
+                                17
+                            ],
+                            "radius": 10
+                        },
+                        {
+                            "text": "[!]",
+                            "position": [
+                                -10,
+                                138.5,
+                                -16
+                            ],
+                            "radius": 10
+                        },
+                        {
+                            "text": "Zombies",
+                            "position": [
+                                36,
+                                122.5,
+                                -17
+                            ],
+                            "radius": 10
+                        },
+                        {
+                            "text": "Zombies",
+                            "position": [
+                                36,
+                                122.5,
+                                -17
+                            ],
+                            "radius": 200
+                        }
+                    ],
+                    "index": 0
+                }
+            },
+            {
+                "type": "message",
+                "instruction": "Kill an Emerald Slime",
+                "criteria": "BESTIARY FAMILY UNLOCKED Emerald Slime",
+                "waypoint": {
+                    "type": "list",
+                    "beam": true,
+                    "list": [
+                        {
+                            "text": "[!]",
+                            "position": [
+                                -3,
+                                119,
+                                25
+                            ],
+                            "radius": 10
+                        },
+                        {
+                            "text": "[!]",
+                            "position": [
+                                6,
+                                108,
+                                46
+                            ],
+                            "radius": 10
+                        },
+                        {
+                            "text": "[!]",
+                            "position": [
+                                25,
+                                97,
+                                42
+                            ],
+                            "radius": 6
+                        },
+                        {
+                            "text": "[!]",
+                            "position": [
+                                -9,
+                                98,
+                                5
+                            ],
+                            "radius": 5
+                        },
+                        {
+                            "text": "[!]",
+                            "position": [
+                                -17,
+                                80,
+                                44
+                            ],
+                            "radius": 5
+                        },
+                        {
+                            "text": "Slime",
+                            "position": [
+                                19,
+                                66,
+                                62
+                            ],
+                            "radius": 15
+                        },
+                        {
+                            "text": "Slime",
+                            "position": [
+                                19,
+                                66,
+                                62
+                            ],
+                            "radius": 200
+                        }
+                    ],
+                    "index": 0
+                }
+            },
+            {
+                "type": "message",
+                "instruction": "Kill a Miner Skeleton",
+                "criteria": "BESTIARY FAMILY UNLOCKED Miner Skeleton",
+                "waypoint": {
+                    "type": "list",
+                    "beam": true,
+                    "list": [
+                        {
+                            "text": "[!]",
+                            "position": [
+                                -19,
+                                64,
+                                26
+                            ],
+                            "radius": 8
+                        },
+                        {
+                            "text": "[!]",
+                            "position": [
+                                -9,
+                                63,
+                                -13
+                            ],
+                            "radius": 6
+                        },
+                        {
+                            "text": "[!]",
+                            "position": [
+                                -41,
+                                41,
+                                22
+                            ],
+                            "radius": 7
+                        },
+                        {
+                            "text": "[!]",
+                            "position": [
+                                10,
+                                36,
+                                60
+                            ],
+                            "radius": 5
+                        },
+                        {
+                            "text": "[!]",
+                            "position": [
+                                -39,
+                                15,
+                                61
+                            ],
+                            "radius": 6
+                        }
+                    ],
+                    "index": 0
+                }
+            },
+            {
+                "type": "subArea",
+                "instruction": "Reach Obsidian Sanctuary",
+                "subArea": "Obsidian Sanctuary",
+                "waypoint": {
+                    "type": "list",
+                    "beam": true,
+                    "list": [
+                        {
+                            "text": "[!]",
+                            "position": [
+                                10,
+                                36,
+                                60
+                            ],
+                            "radius": 5
+                        },
+                        {
+                            "text": "[!]",
+                            "position": [
+                                -39,
+                                15,
+                                61
+                            ],
+                            "radius": 6
+                        }
+                    ],
+                    "index": 0
+                }
+            },
+            {
+                "type": "message",
+                "instruction": "/warp deep",
+                "criteria": "Warping...",
+                "command": "/warp deep"
+            },
+            {
+                "type": "guiClickSlot",
+                "instruction": "Claim Cubic Reward",
+                "guiName": "Collected Mob Types",
+                "slotIndex": 16,
+                "command": "/mobtypes"
+            },
+            {
+                "type": "guiClickSlot",
+                "instruction": "Claim Skeletal Reward",
+                "guiName": "Collected Mob Types",
+                "slotIndex": 31,
+                "command": "/mobtypes"
+            },
+            {
+                "type": "guiClickSlot",
+                "instruction": "Claim Undead Reward",
+                "guiName": "Collected Mob Types",
+                "slotIndex": 34,
+                "command": "/mobtypes"
+            },
+            {
+                "type": "sell",
+                "instruction": "Sell items",
+                "items": [
+                    "ANCIENT_CLAW",
+                    "LAPIS_CRYSTAL",
+                    "COBBLESTONE",
+                    "GOLD_NUGGET",
+                    "FLAMING_SWORD",
+                    "SLIME_BALL",
+                    "RUNE",
+                    "BONE",
+                    "ROTTEN_FLESH"
+                ],
+                "command": "/trades"
+            },
+            {
+                "type": "guiClickSlot",
+                "instruction": "Take lift to Pigmen's Den",
+                "guiName": "Lift",
+                "slotIndex": 14,
+                "highlight": true,
+                "waypoint": {
+                    "type": "list",
+                    "beam": true,
+                    "list": [
+                        {
+                            "text": "Lift Operator",
+                            "position": [
+                                45,
+                                150,
+                                15
+                            ],
+                            "radius": 0
+                        }
+                    ],
+                    "index": 0
+                },
+                "outlineEntity": {
+                    "entityType": "Player",
+                    "position": [
+                        45.5,
+                        150.0,
+                        15.5
+                    ]
+                }
+            },
+            {
+                "type": "collection",
+                "instruction": "Unlock Redstone Dust Collection 4",
+                "collection": "redstone_dust",
+                "level": 4
+            },
+            {
+                "type": "has",
+                "instruction": "Craft Enchanted Redstone Dust &b%1%&r",
+                "items": {
+                    "ENCHANTED_REDSTONE": {
+                        "count": 0,
+                        "target": 15,
+                        "done": false
+                    }
+                },
+                "command": "/viewrecipe ENCHANTED_REDSTONE"
+            },
+            {
+                "type": "has",
+                "instruction": "Get Redstone Dust &b%1%&r",
+                "items": {
+                    "REDSTONE": {
+                        "count": 0,
+                        "target": 32,
+                        "done": false
+                    }
+                }
+            },
+            {
+                "type": "store",
+                "instruction": "Store items",
+                "items": [
+                    "REDSTONE"
+                ],
+                "command": "/ec 1"
+            },
+            {
+                "type": "guiClickSlot",
+                "instruction": "Take lift to Obsidian Sanctuary",
+                "guiName": "Lift",
+                "slotIndex": 31,
+                "highlight": true,
+                "waypoint": {
+                    "type": "list",
+                    "beam": true,
+                    "list": [
+                        {
+                            "text": "Lift Operator",
+                            "position": [
+                                45,
+                                101,
+                                17
+                            ],
+                            "radius": 0
+                        }
+                    ],
+                    "index": 0
+                },
+                "outlineEntity": {
+                    "entityType": "Player",
+                    "position": [
+                        45.5,
+                        101.0,
+                        17.5
+                    ]
+                }
+            },
+            {
+                "type": "area",
+                "instruction": "Give Rhys Enchanted Items\n&c/warp mines if stuck",
+                "area": "Dwarven Mines",
+                "waypoint": {
+                    "type": "list",
+                    "beam": true,
+                    "list": [
+                        {
+                            "text": "Rhys",
+                            "position": [
+                                31,
+                                12,
+                                14
+                            ],
+                            "radius": 0
+                        }
+                    ],
+                    "index": 0
+                },
+                "outlineEntity": {
+                    "entityType": "Player",
+                    "position": [
+                        31.5,
+                        12.0,
+                        14.5
+                    ]
+                }
+            },
+            {
+                "type": "guiClickSlot",
+                "instruction": "Unlock the Mining Speed Perk",
+                "guiName": "Heart of the Mountain",
+                "slotIndex": 40,
+                "highlight": true,
+                "command": "/hotm"
+            },
+            {
+                "type": "buy",
+                "instruction": "Buy Fractured Mithril Pickaxe &b%1%&r",
+                "items": {
+                    "FRACTURED_MITHRIL_PICKAXE": {
+                        "count": 0,
+                        "target": 1,
+                        "done": false
+                    }
+                },
+                "waypoint": {
+                    "type": "list",
+                    "beam": true,
+                    "list": [
+                        {
+                            "text": "Bubu",
+                            "position": [
+                                -11,
+                                201,
+                                -104
+                            ],
+                            "radius": 0
+                        }
+                    ],
+                    "index": 0
+                },
+                "outlineEntity": {
+                    "entityType": "Player",
+                    "position": [
+                        -10.5,
+                        201.0,
+                        -103.5
+                    ]
+                }
+            },
+            {
+                "type": "sell",
+                "instruction": "Sell items",
+                "items": [
+                    "ANCIENT_CLAW",
+                    "LAPIS_CRYSTAL",
+                    "COBBLESTONE",
+                    "GOLD_NUGGET",
+                    "FLAMING_SWORD",
+                    "SLIME_BALL",
+                    "RUNE",
+                    "ROTTEN_FLESH"
+                ],
+                "command": "/trades"
+            },
+            {
+                "type": "message",
+                "instruction": "Give Fetchur Yellow Glass",
+                "criteria": "[NPC] Fetchur: thanks thats probably what i needed",
+                "waypoint": {
+                    "type": "list",
+                    "beam": true,
+                    "list": [
+                        {
+                            "text": "[!]",
+                            "position": [
+                                71.5,
+                                200,
+                                -118.5
+                            ],
+                            "radius": 5
+                        },
+                        {
+                            "text": "[!]",
+                            "position": [
+                                85,
+                                224,
+                                -124
+                            ],
+                            "radius": 10
+                        },
+                        {
+                            "text": "Fetchur",
+                            "position": [
+                                83.5,
+                                224,
+                                -118.5
+                            ],
+                            "radius": 0
+                        }
+                    ],
+                    "index": 0
+                },
+                "outlineEntity": {
+                    "entityType": "Player",
+                    "position": [
+                        84.0,
+                        224.0,
+                        -118.0
+                    ]
+                }
+            },
+            {
+                "type": "collection",
+                "instruction": "Unlock Cobblestone Collection 3",
+                "collection": "cobblestone",
+                "level": 3,
+                "waypoint": {
+                    "type": "list",
+                    "beam": true,
+                    "list": [
+                        {
+                            "text": "[!]",
+                            "position": [
+                                87,
+                                194,
+                                -41
+                            ],
+                            "radius": 15
+                        },
+                        {
+                            "text": "[!]",
+                            "position": [
+                                102,
+                                194,
+                                -22
+                            ],
+                            "radius": 15
+                        },
+                        {
+                            "text": "Cobblestone",
+                            "position": [
+                                129,
+                                187,
+                                62
+                            ],
+                            "radius": 50
+                        }
+                    ],
+                    "index": 0
+                },
+                "outlineEntity": {
+                    "entityType": "Player",
+                    "position": [
+                        129.5,
+                        196.0,
+                        196.5
+                    ]
+                }
+            },
+            {
+                "type": "guiClickSlot",
+                "instruction": "Craft Silverfish Pet",
+                "guiName": "Silverfish Pet Recipe",
+                "slotIndex": 32,
+                "command": "/viewrecipe SILVERFISH"
+            },
+            {
+                "type": "message",
+                "instruction": "Add Silverfish to Pet Menu",
+                "criteria": "Successfully added Silverfish to your pet menu!"
+            },
+            {
+                "type": "sell",
+                "instruction": "Sell items",
+                "items": [
+                    "ZOMBIE_PICKAXE",
+                    "COBBLESTONE",
+                    "STONE"
+                ],
+                "command": "/trades"
+            },
+            {
+                "type": "guiItem",
+                "instruction": "Open King's Commission Menu",
+                "guiName": "Commissions",
+                "waypoint": {
+                    "type": "list",
+                    "beam": true,
+                    "list": [
+                        {
+                            "text": "King",
+                            "position": [
+                                129,
+                                196,
+                                196
+                            ],
+                            "radius": 0
+                        }
+                    ],
+                    "index": 0
+                },
+                "outlineEntity": {
+                    "entityType": "Player",
+                    "position": [
+                        129.5,
+                        196.0,
+                        196.5
+                    ]
+                }
+            },
+            {
+                "type": "message",
+                "instruction": "Talk to Puzzler",
+                "criteria": "[NPC] Puzzler:",
+                "waypoint": {
+                    "type": "list",
+                    "beam": true,
+                    "list": [
+                        {
+                            "text": "[!]",
+                            "position": [
+                                162,
+                                196,
+                                181
+                            ],
+                            "radius": 7
+                        },
+                        {
+                            "text": "[!]",
+                            "position": [
+                                172,
+                                196,
+                                160
+                            ],
+                            "radius": 7
+                        },
+                        {
+                            "text": "Puzzler",
+                            "position": [
+                                181,
+                                196,
+                                135
+                            ],
+                            "radius": 0
+                        }
+                    ],
+                    "index": 0
+                },
+                "outlineEntity": {
+                    "entityType": "Player",
+                    "position": [
+                        181.5,
+                        196.0,
+                        135.5
+                    ]
+                }
+            },
+            {
+                "type": "message",
+                "instruction": "Do Puzzler Quest",
+                "criteria": "[NPC] Puzzler: ▶▶Nice!  ▲Here, ◀have ▼some◀ ▶Mithril Powder!▲"
+            },
+            {
+                "type": "guiItem",
+                "instruction": "Upgrade Mining Speed Perk",
+                "guiName": "Heart of the Mountain",
+                "itemIndex": 40,
+                "has": "You don't have enough Mithril Powder!",
+                "command": "/hotm"
+            },
+            {
+                "type": "area",
+                "instruction": "/hub",
+                "area": "Hub",
+                "command": "/hub"
+            },
+            {
+                "type": "enchant",
+                "instruction": "Enchant Fractured Mithril Pickaxe",
+                "items": {
+                    "FRACTURED_MITHRIL_PICKAXE": {
+                        "enchants": [
+                            "Efficiency V",
+                            "Fortune III"
+                        ],
+                        "done": false
+                    }
+                },
+                "waypoint": {
+                    "type": "list",
+                    "beam": true,
+                    "list": [
+                        {
+                            "text": "Enchanting Table",
+                            "position": [
+                                -37,
+                                69,
+                                -111
+                            ],
+                            "radius": 0
+                        }
+                    ],
+                    "index": 0
+                }
+            },
+            {
+                "type": "buy",
+                "instruction": "Buy Black Diamond &b%1%",
+                "items": {
+                    "ONYX": {
+                        "count": 0,
+                        "target": 1,
+                        "done": false
+                    }
+                },
+                "waypoint": {
+                    "type": "list",
+                    "beam": true,
+                    "list": [
+                        {
+                            "text": "Mine Merchant",
+                            "position": [
+                                -9.5,
+                                68,
+                                -125.5
+                            ],
+                            "radius": 0
+                        }
+                    ],
+                    "index": 0
+                },
+                "outlineEntity": {
+                    "entityType": "Player",
+                    "position": [
+                        -9.0,
+                        68.0,
+                        -125.0
+                    ]
+                }
+            },
+            {
+                "type": "guiItem",
+                "instruction": "Apply Black Diamond to Fractured Mithril Pickaxe",
+                "guiName": "Reforge Anvil",
+                "itemIndex": 13,
+                "has": "Fruitful Fractured Mithril Pickaxe",
+                "doesntHave": "Click the ANVIL BELOW to combine.",
+                "highlight": false,
+                "waypoint": {
+                    "type": "list",
+                    "beam": true,
+                    "list": [
+                        {
+                            "text": "Reforge Anvil",
+                            "position": [
+                                -29,
+                                69,
+                                -137
+                            ],
+                            "radius": 0
+                        }
+                    ],
+                    "index": 0
+                }
+            },
+            {
+                "type": "area",
+                "instruction": "/warp mines",
+                "area": "Dwarven Mines",
+                "command": "/warp mines"
+            },
+            {
+                "type": "collection",
+                "instruction": "Unlock Gold Ingot Collection 2",
+                "collection": "gold_ingot",
+                "level": 2,
+                "waypoint": {
+                    "type": "list",
+                    "beam": true,
+                    "list": [
+                        {
+                            "text": "[!]",
+                            "position": [
+                                63,
+                                200,
+                                -100
+                            ],
+                            "radius": 15
+                        },
+                        {
+                            "text": "[!]",
+                            "position": [
+                                116,
+                                187,
+                                -10
+                            ],
+                            "radius": 15
+                        },
+                        {
+                            "text": "[!]",
+                            "position": [
+                                139,
+                                187,
+                                15
+                            ],
+                            "radius": 10
+                        },
+                        {
+                            "text": "Gold",
+                            "position": [
+                                179,
+                                157,
+                                39
+                            ],
+                            "radius": 10
+                        }
+                    ],
+                    "index": 0
+                }
+            },
+            {
+                "type": "guiClickSlot",
+                "instruction": "Craft Cleaver",
+                "guiName": "Cleaver Recipe",
+                "slotIndex": 32,
+                "command": "/viewrecipe CLEAVER"
+            },
+            {
+                "type": "collection",
+                "instruction": "Unlock Emerald Collection 3",
+                "collection": "emerald",
+                "level": 3,
+                "waypoint": {
+                    "type": "list",
+                    "beam": true,
+                    "list": [
+                        {
+                            "text": "[!]",
+                            "position": [
+                                166,
+                                149,
+                                82
+                            ],
+                            "radius": 15
+                        },
+                        {
+                            "text": "Emerald",
+                            "position": [
+                                160,
+                                157,
+                                73
+                            ],
+                            "radius": 5
+                        }
+                    ],
+                    "index": 0
+                }
+            },
+            {
+                "type": "guiClickSlot",
+                "instruction": "Craft Magnetic Talisman",
+                "guiName": "Magnetic Talisman Recipe",
+                "slotIndex": 32,
+                "command": "/viewrecipe MAGNETIC_TALISMAN"
+            },
+            {
+                "type": "sell",
+                "instruction": "Sell items",
+                "items": [
+                    "ANCIENT_CLAW",
+                    "STARFALL",
+                    "RUNE",
+                    "REDSTONE",
+                    "COBBLESTONE",
+                    "STONE",
+                    "GOLD_INGOT",
+                    "IRON_INGOT",
+                    "EMERALD",
+                    "COAL",
+                    "MITHRIL_ORE"
+                ],
+                "command": "/trades"
+            },
+            {
+                "type": "message",
+                "instruction": "Kill a Glacite Walker",
+                "criteria": "BESTIARY FAMILY UNLOCKED Glacite Walker",
+                "waypoint": {
+                    "type": "list",
+                    "beam": true,
+                    "list": [
+                        {
+                            "text": "[!]",
+                            "position": [
+                                130,
+                                149,
+                                99
+                            ],
+                            "radius": 10
+                        },
+                        {
+                            "text": "[!]",
+                            "position": [
+                                128,
+                                151,
+                                137.5
+                            ],
+                            "radius": 12
+                        },
+                        {
+                            "text": "[!]",
+                            "position": [
+                                77,
+                                151,
+                                139
+                            ],
+                            "radius": 20
+                        },
+                        {
+                            "text": "Glacite Walkers",
+                            "position": [
+                                0,
+                                128,
+                                160
+                            ],
+                            "radius": 40
+                        },
+                        {
+                            "text": "Glacite Walkers",
+                            "position": [
+                                0,
+                                128,
+                                160
+                            ],
+                            "radius": 100
+                        }
+                    ],
+                    "index": 0
+                }
+            },
+            {
+                "type": "message",
+                "instruction": "Kill a Goblin",
+                "criteria": "BESTIARY FAMILY UNLOCKED Goblin",
+                "waypoint": {
+                    "type": "list",
+                    "beam": true,
+                    "list": [
+                        {
+                            "text": "Goblins",
+                            "position": [
+                                -79,
+                                139,
+                                151
+                            ],
+                            "radius": 15
+                        },
+                        {
+                            "text": "Goblins",
+                            "position": [
+                                -79,
+                                139,
+                                151
+                            ],
+                            "radius": 100
+                        }
+                    ],
+                    "index": 0
+                }
+            },
+            {
+                "type": "message",
+                "instruction": "Find and kill a Star Sentry\n&eAsk in chat and lobby-hop if necessary. ",
+                "criteria": "BESTIARY FAMILY UNLOCKED Star Sentry"
+            },
+            {
+                "type": "area",
+                "instruction": "/hub",
+                "area": "Hub",
+                "command": "/hub"
+            },
+            {
+                "type": "guiClickSlot",
+                "instruction": "Claim Arcane Reward",
+                "guiName": "Collected Mob Types",
+                "slotIndex": 13,
+                "command": "/mobtypes"
+            },
+            {
+                "type": "guiClickSlot",
+                "instruction": "Claim Construct Reward",
+                "guiName": "Collected Mob Types",
+                "slotIndex": 15,
+                "command": "/mobtypes"
+            },
+            {
+                "type": "guiClickSlot",
+                "instruction": "Claim Glacial Reward",
+                "guiName": "Collected Mob Types",
+                "slotIndex": 22,
+                "command": "/mobtypes"
+            },
+            {
+                "type": "guiClickSlot",
+                "instruction": "Claim Humanoid Reward",
+                "guiName": "Collected Mob Types",
+                "slotIndex": 23,
+                "command": "/mobtypes"
+            },
+            {
+                "type": "guiClickSlot",
+                "instruction": "Claim Shielded Reward",
+                "guiName": "Collected Mob Types",
+                "slotIndex": 30,
+                "command": "/mobtypes"
+            },
+            {
+                "type": "guiClickSlot",
+                "instruction": "Claim Subterranean Reward",
+                "guiName": "Collected Mob Types",
+                "slotIndex": 33,
+                "command": "/mobtypes"
+            },
+            {
+                "type": "sell",
+                "instruction": "Sell items",
+                "items": [
+                    "ANCIENT_CLAW",
+                    "MITHRIL_ORE",
+                    "STARFALL"
+
+                ],
+                "command": "/trades"
+            },
+            {
+                "type": "area",
+                "instruction": "/hub",
+                "area": "Hub",
+                "command": "/hub"
+            },
+            {
+                "type": "enchant",
+                "instruction": "Enchant items",
+                "items": {
+                    "CLEAVER": {
+                        "enchants": [
+                            "Sharpness V",
+                            "Smite V",
+                            "Bane of Arthropods V",
+                            "Gravity V",
+                            "Fire Aspect II",
+                            "Experience III",
+                            "Looting III",
+                            "Scavenger III",
+                            "Luck V",
+                            "Cubism V",
+                            "Cleave V",
+                            "Life Steal III",
+                            "Giant Killer V",
+                            "Critical V",
+                            "First Strike IV",
+                            "Ender Slayer V",
+                            "Impaling V",
+                            "Execute V",
+                            "Thunderlord V",
+                            "Lethality V",
+                            "Vampirism V",
+                            "Venomous V"
+                        ],
+                        "done": false
+                    }
+                },
+                "waypoint": {
+                    "type": "list",
+                    "beam": true,
+                    "list": [
+                        {
+                            "text": "Enchanting Table",
+                            "position": [
+                                -37,
+                                69,
+                                -111
+                            ],
+                            "radius": 0
+                        }
+                    ],
+                    "index": 0
+                }
+            },
+            {
+                "type": "reforge",
+                "instruction": "Reforge items",
+                "items": {
+                    "CLEAVER": {
+                        "reforges": [
+                            "Sharp"
+                        ],
+                        "done": false
+                    }
+                },
+                "waypoint": {
+                    "type": "list",
+                    "beam": true,
+                    "list": [
+                        {
+                            "text": "Blacksmith",
+                            "position": [
+                                -29,
+                                69,
+                                -126
+                            ],
+                            "radius": 0
+                        }
+                    ],
+                    "index": 0
+                },
+                "outlineEntity": {
+                    "entityType": "Villager",
+                    "position": [
+                        -28.5,
+                        69.0,
+                        -125.5
+                    ]
+                }
+            },
+            {
+                "type": "message",
+                "instruction": "/warp stonks",
+                "criteria": "Warping...",
+                "command": "/warp stonks"
+            },
+            {
+                "type": "area",
+                "instruction": "Travel to Dungeon Hub",
+                "area": "Dungeon Hub",
+                "waypoint": {
+                    "type": "list",
+                    "beam": true,
+                    "list": [
+                        {
+                            "text": "Portal",
+                            "position": [
+                                -45,
+                                88,
+                                12
+                            ],
+                            "radius": 10
+                        }
+                    ],
+                    "index": 0
+                }
+            },
+            {
+                "type": "guiClickSlot",
+                "instruction": "Buy Super Cleaver",
+                "guiName": "Ophelia",
+                "slotIndex": 11,
+                "coins": 80000,
+                "waypoint": {
+                    "type": "list",
+                    "beam": true,
+                    "list": [
+                        {
+                            "text": "Ophelia",
+                            "position": [
+                                -50,
+                                119,
+                                -10
+                            ],
+                            "radius": 0
+                        }
+                    ],
+                    "index": 0
+                },
+                "outlineEntity": {
+                    "entityType": "Player",
+                    "position": [
+                        -49.5,
+                        119.0,
+                        -9.5
+                    ]
+                }
+            },
+            {
+                "type": "area",
+                "instruction": "/warp end",
+                "area": "The End",
+                "command": "/warp end"
+            },
+            {
+                "type": "has",
+                "instruction": "Get Ender Pearls &b%1%",
+                "items": {
+                    "ENDER_PEARL": {
+                        "count": 0,
+                        "target": 64,
+                        "done": false
+                    }
+                }
+            },
+            {
+                "type": "guiClickSlot",
+                "instruction": "Navigate to Enderman Minion Recipes",
+                "guiName": "Enderman Minion Recipes",
+                "slotIndex": 11,
+                "command": "/viewrecipe ENDERMAN_GENERATOR_1"
+            },
+            {
+                "type": "guiClickSlot",
+                "instruction": "Craft Enderman Minion I",
+                "guiName": "Enderman Minion I Recipe",
+                "slotIndex": 32
+            },
+            {
+                "type": "guiClickSlot",
+                "instruction": "Claim Ender Reward",
+                "guiName": "Collected Mob Types",
+                "slotIndex": 20,
+                "command": "/mobtypes"
+            },
+            {
+                "type": "has",
+                "instruction": "Get Ender Pearls &b%1%",
+                "items": {
+                    "ENDER_PEARL": {
+                        "count": 0,
+                        "target": 128,
+                        "done": false
+                    }
+                }
+            },
+            {
+                "type": "guiClickSlot",
+                "instruction": "Navigate to Enderman Minion Recipes",
+                "guiName": "Enderman Minion Recipes",
+                "slotIndex": 12,
+                "command": "/viewrecipe ENDERMAN_GENERATOR_2"
+            },
+            {
+                "type": "guiClickSlot",
+                "instruction": "Craft Enderman Minion II",
+                "guiName": "Enderman Minion II Recipe",
+                "slotIndex": 32
+            },
+            {
+                "type": "has",
+                "instruction": "Wait for inventory update",
+                "items": {
+                    "ENDERMAN_GENERATOR_2": {
+                        "count": 0,
+                        "target": 1,
+                        "done": false
+                    }
+                }
+            },
+            {
+                "type": "store",
+                "instruction": "Store Enderman Minion",
+                "items": [
+                    "ENDERMAN_GENERATOR_2"
+                ],
+                "command": "/ec 1"
+            },
+            {
+                "type": "has",
+                "instruction": "Get Ender Helmet &b%1%&r\nGet Ender Chestplate &b%2%&r\nGet Ender Leggings &b%3%&r\nGet Ender Boots &b%4%&r",
+                "items": {
+                    "END_HELMET": {
+                        "count": 0,
+                        "target": 1,
+                        "done": false
+                    },
+                    "END_CHESTPLATE": {
+                        "count": 0,
+                        "target": 1,
+                        "done": false
+                    },
+                    "END_LEGGINGS": {
+                        "count": 0,
+                        "target": 1,
+                        "done": false
+                    },
+                    "END_BOOTS": {
+                        "count": 0,
+                        "target": 1,
+                        "done": false
+                    }
+                }
+            },
+            {
+                "type": "sell",
+                "instruction": "Sell items",
+                "items": [
+                    "ANCIENT_CLAW",
+                    "MITE_GEL",
+                    "OBSIDIAN",
+                    "ENCHANTED_OBSIDIAN",
+                    "ENDER_STONE",
+                    "ENCHANTED_ENDSTONE",
+                    "ENDSTONE_ROSE",
+                    "RUNE"
+                ],
+                "command": "/trades"
+            },
+            {
+                "type": "area",
+                "instruction": "/hub",
+                "area": "Hub",
+                "command": "/hub"
+            },
+            {
+                "type": "reforge",
+                "instruction": "Reforge items",
+                "items": {
+                    "END_HELMET": {
+                        "reforges": [
+                            "Fierce"
+                        ],
+                        "done": false
+                    },
+                    "END_CHESTPLATE": {
+                        "reforges": [
+                            "Fierce"
+                        ],
+                        "done": false
+                    },
+                    "END_LEGGINGS": {
+                        "reforges": [
+                            "Fierce"
+                        ],
+                        "done": false
+                    },
+                    "END_BOOTS": {
+                        "reforges": [
+                            "Fierce"
+                        ],
+                        "done": false
+                    }
+                },
+                "waypoint": {
+                    "type": "list",
+                    "beam": true,
+                    "list": [
+                        {
+                            "text": "Blacksmith",
+                            "position": [
+                                -29,
+                                69,
+                                -126
+                            ],
+                            "radius": 0
+                        }
+                    ],
+                    "index": 0
+                },
+                "outlineEntity": {
+                    "entityType": "Villager",
+                    "position": [
+                        -28.5,
+                        69.0,
+                        -125.5
+                    ]
+                }
+            },
+            {
+                "type": "sell",
+                "instruction": "Equip Ender Armor",
+                "items": [
+                    "END_HELMET",
+                    "END_CHESTPLATE",
+                    "END_LEGGINGS",
+                    "END_BOOTS"
+                ],
+                "command": "/equipment"
+            },
+            {
+                "type": "sell",
+                "instruction": "Store Angler Armor",
+                "items": [
+                    "ANGLER_HELMET",
+                    "ANGLER_CHESTPLATE",
+                    "ANGLER_LEGGINGS",
+                    "ANGLER_BOOTS"
+                ],
+                "command": "/wardrobe"
+            },
+            {
+                "type": "area",
+                "instruction": "/warp end",
+                "area": "The End",
+                "command": "/warp end"
+            },
+            {
+                "type": "has",
+                "instruction": "Get Enchanted Ender Pearls &b%1%&r",
+                "items": {
+                    "ENCHANTED_ENDER_PEARL": {
+                        "count": 0,
+                        "target": 8,
+                        "done": false
+                    }
+                }
+            },
+            {
+                "type": "guiClickSlot",
+                "instruction": "Navigate to Enderman Minion Recipes",
+                "guiName": "Enderman Minion Recipes",
+                "slotIndex": 13,
+                "command": "/viewrecipe ENDERMAN_GENERATOR_3"
+            },
+            {
+                "type": "guiClickSlot",
+                "instruction": "Craft Enderman Minion III",
+                "guiName": "Enderman Minion III Recipe",
+                "slotIndex": 32
+            },
+            {
+                "type": "has",
+                "instruction": "Wait for inventory update",
+                "items": {
+                    "ENDERMAN_GENERATOR_3": {
+                        "count": 0,
+                        "target": 1,
+                        "done": false
+                    }
+                }
+            },
+            {
+                "type": "store",
+                "instruction": "Store items",
+                "items": [
+                    "ENDERMAN_GENERATOR_3"
+                ],
+                "command": "/ec 1"
+            },
+            {
+                "type": "skill",
+                "instruction": "Unlock Combat 15",
+                "skill": "combat",
+                "level": 15
+            },
+            {
+                "type": "sell",
+                "instruction": "Sell items",
+                "items": [
+                    "ENDER_PEARL",
+                    "OBSIDIAN",
+                    "ENDER_STONE",
+                    "ENCHANTED_ENDSTONE",
+                    "ENDSTONE_ROSE",
+                    "ENCHANTED_ENDER_PEARL",
+                    "ANCIENT_CLAW",
+                    "MITE_GEL",
+                    "ENCHANTED_OBSIDIAN",
+                    "RUNE"
+                ],
+                "command": "/trades"
+            },
+            {
+                "type": "area",
+                "instruction": "/hub",
+                "area": "Hub",
+                "command": "/hub"
+            },
+            {
+                "type": "buy",
+                "instruction": "Buy Wooden Sword &b%1%&r\nBuy Wooden Pickaxe &b%2%&r\nBuy Wooden Hoe &b%3%&r",
+                "items": {
+                    "WOOD_SWORD": {
+                        "count": 0,
+                        "target": 1,
+                        "done": false
+                    },
+                    "WOOD_PICKAXE": {
+                        "count": 0,
+                        "target": 1,
+                        "done": false
+                    },
+                    "WOOD_HOE": {
+                        "count": 0,
+                        "target": 1,
+                        "done": false
+                    }
+                },
+                "waypoint": {
+                    "type": "list",
+                    "beam": true,
+                    "list": [
+                        {
+                            "text": "Lumber Merchant",
+                            "position": [
+                                -50,
+                                70,
+                                -68
+                            ],
+                            "radius": 0
+                        }
+                    ],
+                    "index": 0
+                },
+                "outlineEntity": {
+                    "entityType": "Player",
+                    "position": [
+                        -49.5,
+                        70.0,
+                        -67.5
+                    ]
+                }
+            },
+            {
+                "type": "store",
+                "instruction": "Store items",
+                "items": [
+                    "WOOD_SWORD",
+                    "WOOD_PICKAXE",
+                    "WOOD_HOE"
+                ],
+                "command": "/ec 1"
+            },
+            {
+                "type": "buy",
+                "instruction": "Buy Rotten Flesh &b%1%",
+                "items": {
+                    "ROTTEN_FLESH": {
+                        "count": 0,
+                        "target": 560,
+                        "done": false
+                    }
+                },
+                "waypoint": {
+                    "type": "list",
+                    "beam": true,
+                    "list": [
+                        {
+                            "text": "Adventurer",
+                            "position": [
+                                -42,
+                                70,
+                                -65
+                            ],
+                            "radius": 0
+                        }
+                    ],
+                    "index": 0
+                },
+                "outlineEntity": {
+                    "entityType": "Player",
+                    "position": [
+                        -41.5,
+                        70.0,
+                        -64.5
+                    ]
+                }
+            },
+            {
+                "type": "guiClickSlot",
+                "instruction": "Navigate to Zombie Minion Recipes",
+                "guiName": "Zombie Minion Recipes",
+                "slotIndex": 11,
+                "command": "/viewrecipe ZOMBIE_GENERATOR_1"
+            },
+            {
+                "type": "guiClickSlot",
+                "instruction": "Craft Zombie Minion I",
+                "guiName": "Zombie Minion I Recipe",
+                "slotIndex": 32
+            },
+            {
+                "type": "guiClickSlot",
+                "instruction": "Navigate to Zombie Minion Recipes",
+                "guiName": "Zombie Minion Recipes",
+                "slotIndex": 12,
+                "command": "/viewrecipe ZOMBIE_GENERATOR_2"
+            },
+            {
+                "type": "guiClickSlot",
+                "instruction": "Craft Zombie Minion II",
+                "guiName": "Zombie Minion II Recipe",
+                "slotIndex": 32
+            },
+            {
+                "type": "guiClickSlot",
+                "instruction": "Navigate to Zombie Minion Recipes",
+                "guiName": "Zombie Minion Recipes",
+                "slotIndex": 13,
+                "command": "/viewrecipe ZOMBIE_GENERATOR_3"
+            },
+            {
+                "type": "guiClickSlot",
+                "instruction": "Craft Zombie Minion III",
+                "guiName": "Zombie Minion III Recipe",
+                "slotIndex": 32
+            },
+            {
+                "type": "message",
+                "instruction": "/warp hub",
+                "criteria": "Warping...",
+                "command": "/warp hub"
+            },
+            {
+                "type": "buy",
+                "instruction": "Buy Wheat &b%1%",
+                "items": {
+                    "WHEAT": {
+                        "count": 0,
+                        "target": 560,
+                        "done": false
+                    }
+                },
+                "waypoint": {
+                    "type": "list",
+                    "beam": true,
+                    "list": [
+                        {
+                            "text": "Farm Merchant",
+                            "position": [
+                                15,
+                                70,
+                                -72.35
+                            ],
+                            "radius": 0
+                        }
+                    ],
+                    "index": 0
+                },
+                "outlineEntity": {
+                    "entityType": "Player",
+                    "position": [
+                        15.5,
+                        70.0,
+                        -71.8125
+                    ]
+                }
+            },
+            {
+                "type": "guiClickSlot",
+                "instruction": "Navigate to Wheat Minion Recipes",
+                "guiName": "Wheat Minion Recipes",
+                "slotIndex": 11,
+                "command": "/viewrecipe WHEAT_GENERATOR_1"
+            },
+            {
+                "type": "guiClickSlot",
+                "instruction": "Craft Wheat Minion I",
+                "guiName": "Wheat Minion I Recipe",
+                "slotIndex": 32
+            },
+            {
+                "type": "guiClickSlot",
+                "instruction": "Navigate to Wheat Minion Recipes",
+                "guiName": "Wheat Minion Recipes",
+                "slotIndex": 12,
+                "command": "/viewrecipe WHEAT_GENERATOR_2"
+            },
+            {
+                "type": "guiClickSlot",
+                "instruction": "Craft Wheat Minion II",
+                "guiName": "Wheat Minion II Recipe",
+                "slotIndex": 32
+            },
+            {
+                "type": "guiClickSlot",
+                "instruction": "Navigate to Wheat Minion Recipes",
+                "guiName": "Wheat Minion Recipes",
+                "slotIndex": 13,
+                "command": "/viewrecipe WHEAT_GENERATOR_3"
+            },
+            {
+                "type": "guiClickSlot",
+                "instruction": "Craft Wheat Minion III",
+                "guiName": "Wheat Minion III Recipe",
+                "slotIndex": 32
+            },
+            {
+                "type": "message",
+                "instruction": "/warp hub",
+                "criteria": "Warping...",
+                "command": "/warp hub"
+            },
+            {
+                "type": "buy",
+                "instruction": "Buy Cobblestone &b%1%",
+                "items": {
+                    "COBBLESTONE": {
+                        "count": 0,
+                        "target": 480,
+                        "done": false
+                    }
+                },
+                "waypoint": {
+                    "type": "list",
+                    "beam": true,
+                    "list": [
+                        {
+                            "text": "Mine Merchant",
+                            "position": [
+                                -9.5,
+                                68,
+                                -125.5
+                            ],
+                            "radius": 0
+                        }
+                    ],
+                    "index": 0
+                },
+                "outlineEntity": {
+                    "entityType": "Player",
+                    "position": [
+                        -9.0,
+                        68.0,
+                        -125.0
+                    ]
+                }
+            },
+            {
+                "type": "guiClickSlot",
+                "instruction": "Navigate to Cobblestone Minion Recipes",
+                "guiName": "Cobblestone Minion Recipes",
+                "slotIndex": 12,
+                "command": "/viewrecipe COBBLESTONE_GENERATOR_2"
+            },
+            {
+                "type": "guiClickSlot",
+                "instruction": "Craft Cobblestone Minion II",
+                "guiName": "Cobblestone Minion II Recipe",
+                "slotIndex": 32
+            },
+            {
+                "type": "guiClickSlot",
+                "instruction": "Navigate to Cobblestone Minion Recipes",
+                "guiName": "Cobblestone Minion Recipes",
+                "slotIndex": 13,
+                "command": "/viewrecipe COBBLESTONE_GENERATOR_3"
+            },
+            {
+                "type": "guiClickSlot",
+                "instruction": "Craft Cobblestone Minion III",
+                "guiName": "Cobblestone Minion III Recipe",
+                "slotIndex": 32
+            },
+            {
+                "type": "buy",
+                "instruction": "Buy Coal &b%1%&r\nBuy Gold Ingot &b%2%&r",
+                "items": {
+                    "COAL": {
+                        "count": 0,
+                        "target": 18,
+                        "done": false
+                    },
+                    "GOLD_INGOT": {
+                        "count": 0,
+                        "target": 578,
+                        "done": false
+                    }
+                },
+                "waypoint": {
+                    "type": "list",
+                    "beam": true,
+                    "list": [
+                        {
+                            "text": "Mine Merchant",
+                            "position": [
+                                -9.5,
+                                68,
+                                -125.5
+                            ],
+                            "radius": 0
+                        }
+                    ],
+                    "index": 0
+                },
+                "outlineEntity": {
+                    "entityType": "Player",
+                    "position": [
+                        -9.0,
+                        68.0,
+                        -125.0
+                    ]
+                }
+            },
+            {
+                "type": "guiClickSlot",
+                "instruction": "Navigate to Gold Minion Recipes",
+                "guiName": "Gold Minion Recipes",
+                "slotIndex": 11,
+                "command": "/viewrecipe GOLD_GENERATOR_1"
+            },
+            {
+                "type": "guiClickSlot",
+                "instruction": "Craft Gold Minion I",
+                "guiName": "Gold Minion I Recipe",
+                "slotIndex": 32
+            },
+            {
+                "type": "guiClickSlot",
+                "instruction": "Navigate to Gold Minion Recipes",
+                "guiName": "Gold Minion Recipes",
+                "slotIndex": 12,
+                "command": "/viewrecipe GOLD_GENERATOR_2"
+            },
+            {
+                "type": "guiClickSlot",
+                "instruction": "Craft Gold Minion II",
+                "guiName": "Gold Minion II Recipe",
+                "slotIndex": 32
+            },
+            {
+                "type": "guiClickSlot",
+                "instruction": "Navigate to Gold Minion Recipes",
+                "guiName": "Gold Minion Recipes",
+                "slotIndex": 13,
+                "command": "/viewrecipe GOLD_GENERATOR_3"
+            },
+            {
+                "type": "guiClickSlot",
+                "instruction": "Craft Gold Minion III",
+                "guiName": "Gold Minion III Recipe",
+                "slotIndex": 32
+            },
+            {
+                "type": "has",
+                "instruction": "Craft Coal Block &b%1%&r\n&fCraft Gold Block &b%2%&r",
+                "items": {
+                    "COAL_BLOCK": {
+                        "count": 0,
+                        "target": 2,
+                        "done": false
+                    },
+                    "GOLD_BLOCK": {
+                        "count": 0,
+                        "target": 2,
+                        "done": false
+                    }
+                },
+                "command": "/craft"
+            },
+            {
+                "type": "buy",
+                "instruction": "Buy Dirt Bottle &b%1%&r",
+                "items": {
+                    "DIRT_BOTTLE": {
+                        "count": 0,
+                        "target": 1,
+                        "done": false
+                    }
+                },
+                "waypoint": {
+                    "type": "list",
+                    "beam": true,
+                    "list": [
+                        {
+                            "text": "Smithmonger",
+                            "position": [
+                                -33,
+                                69,
+                                -136
+                            ],
+                            "radius": 0
+                        }
+                    ],
+                    "index": 0
+                },
+                "outlineEntity": {
+                    "entityType": "Villager",
+                    "position": [
+                        -32.5,
+                        69.0,
+                        -135.5
+                    ]
+                }
+            },
+            {
+                "type": "guiItem",
+                "instruction": "Apply Dirt Bottle to Rogue Sword",
+                "guiName": "Reforge Anvil",
+                "itemIndex": 13,
+                "has": "Dirty Rogue Sword",
+                "doesntHave": "Click the ANVIL BELOW to combine.",
+                "highlight": false,
+                "waypoint": {
+                    "type": "list",
+                    "beam": true,
+                    "list": [
+                        {
+                            "text": "Reforge Anvil",
+                            "position": [
+                                -29,
+                                69,
+                                -137
+                            ],
+                            "radius": 0
+                        }
+                    ],
+                    "index": 0
+                }
+            },
+            {
+                "type": "message",
+                "instruction": "/warp hub",
+                "criteria": "Warping...",
+                "command": "/warp hub"
+            },
+            {
+                "type": "guiClickSlot",
+                "instruction": "Buy Bee Pet",
+                "guiName": "Bea",
+                "slotIndex": 10,
+                "waypoint": {
+                    "type": "list",
+                    "beam": true,
+                    "list": [
+                        {
+                            "text": "Bea",
+                            "position": [
+                                31,
+                                70,
+                                -95
+                            ],
+                            "radius": 0
+                        }
+                    ],
+                    "index": 0
+                },
+                "outlineEntity": {
+                    "entityType": "Player",
+                    "position": [
+                        31.5,
+                        70,
+                        -94.5
+                    ]
+                }
+            },
+            {
+                "type": "message",
+                "instruction": "Add Bee to Pet Menu",
+                "criteria": "Successfully added Bee to your pet menu!"
+            },
+            {
+                "type": "sell",
+                "instruction": "Sell items",
+                "items": [
+                    "WHEAT",
+                    "ROTTEN_FLESH",
+                    "COBBLESTONE",
+                    "GOLD_INGOT",
+                    "IRON_INGOT",
+                    "COAL",
+                    "GOLD_BLOCK",
+                    "COAL_BLOCK"
+                ],
+                "command": "/trades"
+            },
+            {
+                "type": "store",
+                "instruction": "Store items",
+                "items": [
+                    "ZOMBIE_GENERATOR_3",
+                    "WHEAT_GENERATOR_3",
+                    "COBBLESTONE_GENERATOR_3",
+                    "GOLD_GENERATOR_3"
+                ],
+                "command": "/ec 1"
+            },
+            {
+                "type": "message",
+                "instruction": "/warp stonks",
+                "criteria": "Warping...",
+                "command": "/warp stonks"
+            },
+            {
+                "type": "message",
+                "instruction": "Talk to Lumber Jack",
+                "criteria": "Collect Oak Logs",
+                "waypoint": {
+                    "type": "list",
+                    "beam": true,
+                    "list": [
+                        {
+                            "text": "Lumber Jack",
+                            "position": [
+                                -113,
+                                74,
+                                -37
+                            ],
+                            "radius": 0
+                        }
+                    ],
+                    "index": 0
+                },
+                "outlineEntity": {
+                    "entityType": "Player",
+                    "position": [
+                        -112.5,
+                        74,
+                        -36.5
+                    ]
+                }
+            },
+            {
+                "type": "collection",
+                "instruction": "Unlock Oak Log Collection 1",
+                "collection": "oak_log",
+                "level": 1
+            },
+            {
+                "type": "has",
+                "instruction": "Collect Oak Logs &b%1%&r",
+                "items": {
+                    "LOG": {
+                        "count": 0,
+                        "target": 20,
+                        "done": false
+                    }
+                }
+            },
+            {
+                "type": "message",
+                "instruction": "Give Oak Logs to Lumber Jack",
+                "criteria": "QUEST COMPLETE",
+                "waypoint": {
+                    "type": "list",
+                    "beam": true,
+                    "list": [
+                        {
+                            "text": "Lumber Jack",
+                            "position": [
+                                -113,
+                                74,
+                                -37
+                            ],
+                            "radius": 0
+                        }
+                    ],
+                    "index": 0
+                },
+                "outlineEntity": {
+                    "entityType": "Player",
+                    "position": [
+                        -112.5,
+                        74,
+                        -36.5
+                    ]
+                }
+            },
+            {
+                "type": "sell",
+                "instruction": "Sell items",
+                "items": [
+                    "PROMISING_AXE",
+                    "COAL",
+                    "COAL_BLOCK",
+                    "ANCIENT_CLAW",
+                    "LOG",
+                    "SEEDS",
+                    "ENCHANTED_SEEDS",
+                    "LEAVES",
+                    "APPLE"
+                ],
+                "command": "/trades"
+            },
+            {
+                "type": "message",
+                "instruction": "&rIf 1.8.9 -> &cEnd of Guide\n&rIf 1.21.5 -> &a/bhskip\n&rSupport: &bdiscord.gg/rChEGmzXxa\n&ePing @lilfroggy. with any questions",
+                "criteria": "askldjaslkdas"
+            },
+            {
+                "type": "area",
+                "instruction": "Travel to The Park",
+                "area": "The Park",
+                "waypoint": {
+                    "type": "list",
+                    "beam": true,
+                    "list": [
+                        {
+                            "text": "[!]",
+                            "position": [
+                                -222,
+                                73,
+                                -16
+                            ],
+                            "radius": 10
+                        },
+                        {
+                            "text": "[!]",
+                            "position": [
+                                -222,
+                                73,
+                                -16
+                            ],
+                            "radius": 999
+                        }
+                    ],
+                    "index": 0
+                }
+            },
+            {
+                "type": "message",
+                "instruction": "Talk to Charlie",
+                "criteria": "[NPC] Charlie: Howdy! Yer a friend of Lumber Jack, are ya?",
+                "waypoint": {
+                    "type": "list",
+                    "beam": true,
+                    "list": [
+                        {
+                            "text": "Charlie",
+                            "position": [
+                                -278,
+                                80,
+                                -18
+                            ],
+                            "radius": 0
+                        }
+                    ],
+                    "index": 0
+                },
+                "outlineEntity": {
+                    "entityType": "Player",
+                    "position": [
+                        -277.5,
+                        80,
+                        -17.5
+                    ]
+                }
+            },
+            {
+                "type": "has",
+                "instruction": "Collect Birch Logs &b%1%&r",
+                "items": {
+                    "LOG:2": {
+                        "count": 0,
+                        "target": 64,
+                        "done": false
+                    }
+                }
+            },
+            {
+                "type": "has",
+                "instruction": "Claim Trousers",
+                "items": {
+                    "CHARLIE_TROUSERS": {
+                        "count": 0,
+                        "target": 1,
+                        "done": false
+                    }
+                },
+                "waypoint": {
+                    "type": "list",
+                    "beam": true,
+                    "list": [
+                        {
+                            "text": "Charlie",
+                            "position": [
+                                -278,
+                                80,
+                                -18
+                            ],
+                            "radius": 0
+                        }
+                    ],
+                    "index": 0
+                },
+                "outlineEntity": {
+                    "entityType": "Player",
+                    "position": [
+                        -277.5,
+                        80,
+                        -17.5
+                    ]
+                }
+            },
+            {
+                "type": "message",
+                "instruction": "Talk to Charlie",
+                "criteria": "[NPC] Charlie: The Park is home to many different kinds of wood. Each kind has its own collection.",
+                "waypoint": {
+                    "type": "list",
+                    "beam": true,
+                    "list": [
+                        {
+                            "text": "Charlie",
+                            "position": [
+                                -278,
+                                80,
+                                -18
+                            ],
+                            "radius": 0
+                        }
+                    ],
+                    "index": 0
+                },
+                "outlineEntity": {
+                    "entityType": "Player",
+                    "position": [
+                        -277.5,
+                        80,
+                        -17.5
+                    ]
+                }
+            },
+            {
+                "type": "message",
+                "instruction": "Talk to Kelly",
+                "criteria": "[NPC] Kelly: But then I broke my axe!",
+                "waypoint": {
+                    "type": "list",
+                    "beam": true,
+                    "list": [
+                        {
+                            "text": "[!]",
+                            "position": [
+                                -312,
+                                81,
+                                -10
+                            ],
+                            "radius": 5
+                        },
+                        {
+                            "text": "Kelly",
+                            "position": [
+                                -351,
+                                94,
+                                33
+                            ],
+                            "radius": 0
+                        }
+                    ],
+                    "index": 0
+                },
+                "outlineEntity": {
+                    "entityType": "Player",
+                    "position": [
+                        -350.5,
+                        94,
+                        33.5
+                    ]
+                }
+            },
+            {
+                "type": "has",
+                "instruction": "Collect Spruce Logs &b%1%&r",
+                "items": {
+                    "LOG:1": {
+                        "count": 0,
+                        "target": 128,
+                        "done": false
+                    }
+                }
+            },
+            {
+                "type": "has",
+                "instruction": "Claim T-Shirt",
+                "items": {
+                    "KELLY_TSHIRT": {
+                        "count": 0,
+                        "target": 1,
+                        "done": false
+                    }
+                },
+                "waypoint": {
+                    "type": "list",
+                    "beam": true,
+                    "list": [
+                        {
+                            "text": "Kelly",
+                            "position": [
+                                -351,
+                                94,
+                                33
+                            ],
+                            "radius": 0
+                        }
+                    ],
+                    "index": 0
+                },
+                "outlineEntity": {
+                    "entityType": "Player",
+                    "position": [
+                        -350.5,
+                        94,
+                        33.5
+                    ]
+                }
+            },
+            {
+                "type": "message",
+                "instruction": "Talk to Ryan\n&cSneak from behind!",
+                "criteria": "Complete Trial of Fire I",
+                "waypoint": {
+                    "type": "list",
+                    "beam": true,
+                    "list": [
+                        {
+                            "text": "[!]",
+                            "position": [
+                                -363,
+                                90,
+                                -17
+                            ],
+                            "radius": 5
+                        },
+                        {
+                            "text": "Ryan",
+                            "position": [
+                                -365,
+                                102.5,
+                                -91
+                            ],
+                            "radius": 0
+                        }
+                    ],
+                    "index": 0
+                },
+                "outlineEntity": {
+                    "entityType": "Player",
+                    "position": [
+                        -364.5,
+                        102.5,
+                        -90.5
+                    ]
+                }
+            },
+            {
+                "type": "message",
+                "instruction": "Complete Campfire Trial",
+                "criteria": "TRIAL OF FIRE! Completed Trial of Fire I!",
+                "waypoint": {
+                    "type": "list",
+                    "beam": true,
+                    "list": [
+                        {
+                            "text": "[!]",
+                            "position": [
+                                -363,
+                                102,
+                                -94
+                            ],
+                            "radius": 2
+                        }
+                    ],
+                    "index": 0
+                }
+            },
+            {
+                "type": "message",
+                "instruction": "Talk to Ryan",
+                "criteria": "[NPC] Ryan: Wow, you did it!",
+                "waypoint": {
+                    "type": "list",
+                    "beam": true,
+                    "list": [
+                        {
+                            "text": "Ryan",
+                            "position": [
+                                -365,
+                                102.5,
+                                -91
+                            ],
+                            "radius": 0
+                        }
+                    ],
+                    "index": 0
+                },
+                "outlineEntity": {
+                    "entityType": "Player",
+                    "position": [
+                        -364.5,
+                        102.5,
+                        -90.5
+                    ]
+                }
+            },
+            {
+                "type": "has",
+                "instruction": "Collect Dark Oak Logs &b%1%&r",
+                "items": {
+                    "LOG_2:1": {
+                        "count": 0,
+                        "target": 256,
+                        "done": false
+                    }
+                }
+            },
+            {
+                "type": "has",
+                "instruction": "Collect Campfire Badge",
+                "items": {
+                    "CAMPFIRE_TALISMAN_1": {
+                        "count": 0,
+                        "target": 1,
+                        "done": false
+                    }
+                },
+                "waypoint": {
+                    "type": "list",
+                    "beam": true,
+                    "list": [
+                        {
+                            "text": "Ryan",
+                            "position": [
+                                -365,
+                                102.5,
+                                -91
+                            ],
+                            "radius": 0
+                        }
+                    ],
+                    "index": 0
+                },
+                "outlineEntity": {
+                    "entityType": "Player",
+                    "position": [
+                        -364.5,
+                        102.5,
+                        -90.5
+                    ]
+                }
+            },
+            {
+                "type": "message",
+                "instruction": "Talk to Melody",
+                "criteria": "[NPC] Melody ♫: Yes, I'm fine, though my beloved Harp was broken to pieces by the storm.",
+                "waypoint": {
+                    "type": "list",
+                    "beam": true,
+                    "list": [
+                        {
+                            "text": "[!]",
+                            "position": [
+                                -399,
+                                98,
+                                -36
+                            ],
+                            "radius": 5
+                        },
+                        {
+                            "text": "Melody",
+                            "position": [
+                                -412,
+                                109,
+                                71
+                            ],
+                            "radius": 0
+                        }
+                    ],
+                    "index": 0
+                },
+                "outlineEntity": {
+                    "entityType": "Player",
+                    "position": [
+                        -411.5,
+                        109,
+                        71.5
+                    ]
+                }
+            },
+            {
+                "type": "has",
+                "instruction": "Collect Acacia Logs &b%1%&r",
+                "items": {
+                    "LOG_2": {
+                        "count": 0,
+                        "target": 512,
+                        "done": false
+                    }
+                }
+            },
+            {
+                "type": "has",
+                "instruction": "Claim Shoes",
+                "items": {
+                    "MELODY_SHOES": {
+                        "count": 0,
+                        "target": 1,
+                        "done": false
+                    }
+                },
+                "waypoint": {
+                    "type": "list",
+                    "beam": true,
+                    "list": [
+                        {
+                            "text": "Melody",
+                            "position": [
+                                -412,
+                                109,
+                                71
+                            ],
+                            "radius": 0
+                        }
+                    ],
+                    "index": 0
+                },
+                "outlineEntity": {
+                    "entityType": "Player",
+                    "position": [
+                        -411.5,
+                        109,
+                        71.5
+                    ]
+                }
+            },
+            {
+                "type": "sell",
+                "instruction": "Store Park Armor",
+                "items": [
+                    "KELLY_TSHIRT",
+                    "CHARLIE_TROUSERS",
+                    "MELODY_SHOES"
+                ],
+                "command": "/wardrobe"
+            },
+            {
+                "type": "sell",
+                "instruction": "Sell items",
+                "items": [
+                    "ANCIENT_CLAW",
+                    "LOG",
+                    "LOG:2",
+                    "LOG:1",
+                    "LOG_2:1",
+                    "LOG_2",
+                    "LOG:3",
+                    "PROMISING_AXE",
+                    "BROWN_MUSHROOM",
+                    "RED_MUSHROOM"
+                ],
+                "command": "/trades"
+            },
+            {
+                "type": "area",
+                "instruction": "/hub",
+                "area": "Hub",
+                "command": "/hub"
+            },
+            {
+                "type": "message",
+                "instruction": "/warp hub",
+                "criteria": "Warping...",
+                "command": "/warp hub"
+            },
+            {
+                "type": "buy",
+                "instruction": "Buy Wooden Axe &b%1%&r",
+                "items": {
+                    "WOOD_AXE": {
+                        "count": 0,
+                        "target": 11,
+                        "done": false
+                    }
+                },
+                "waypoint": {
+                    "type": "list",
+                    "beam": true,
+                    "list": [
+                        {
+                            "text": "Lumber Merchant",
+                            "position": [
+                                -50,
+                                70,
+                                -68
+                            ],
+                            "radius": 0
+                        }
+                    ],
+                    "index": 0
+                },
+                "outlineEntity": {
+                    "entityType": "Player",
+                    "position": [
+                        -49.5,
+                        70.0,
+                        -67.5
+                    ]
+                }
+            },
+            {
+                "type": "store",
+                "instruction": "Store items",
+                "items": [
+                    "WOOD_AXE"
+                ],
+                "command": "/ec 1"
+            },
+            {
+                "type": "buy",
+                "instruction": "Buy Oak Logs &b%1%&r",
+                "items": {
+                    "LOG": {
+                        "count": 0,
+                        "target": 560,
+                        "done": false
+                    }
+                },
+                "waypoint": {
+                    "type": "list",
+                    "beam": true,
+                    "list": [
+                        {
+                            "text": "Lumber Merchant",
+                            "position": [
+                                -50,
+                                70,
+                                -68
+                            ],
+                            "radius": 0
+                        }
+                    ],
+                    "index": 0
+                },
+                "outlineEntity": {
+                    "entityType": "Player",
+                    "position": [
+                        -49.5,
+                        70.0,
+                        -67.5
+                    ]
+                }
+            },
+            {
+                "type": "guiClickSlot",
+                "instruction": "Navigate to Oak Minion Recipes",
+                "guiName": "Oak Minion Recipes",
+                "slotIndex": 11,
+                "command": "/viewrecipe OAK_GENERATOR_1"
+            },
+            {
+                "type": "guiClickSlot",
+                "instruction": "Craft Oak Minion I",
+                "guiName": "Oak Minion I Recipe",
+                "slotIndex": 32
+            },
+            {
+                "type": "guiClickSlot",
+                "instruction": "Navigate to Oak Minion Recipes",
+                "guiName": "Oak Minion Recipes",
+                "slotIndex": 12,
+                "command": "/viewrecipe OAK_GENERATOR_2"
+            },
+            {
+                "type": "guiClickSlot",
+                "instruction": "Craft Oak Minion II",
+                "guiName": "Oak Minion II Recipe",
+                "slotIndex": 32
+            },
+            {
+                "type": "guiClickSlot",
+                "instruction": "Navigate to Oak Minion Recipes",
+                "guiName": "Oak Minion Recipes",
+                "slotIndex": 13,
+                "command": "/viewrecipe OAK_GENERATOR_3"
+            },
+            {
+                "type": "guiClickSlot",
+                "instruction": "Craft Oak Minion III",
+                "guiName": "Oak Minion III Recipe",
+                "slotIndex": 32
+            },
+            {
+                "type": "buy",
+                "instruction": "Buy Birch Logs &b%1%&r",
+                "items": {
+                    "LOG:2": {
+                        "count": 0,
+                        "target": 560,
+                        "done": false
+                    }
+                },
+                "waypoint": {
+                    "type": "list",
+                    "beam": true,
+                    "list": [
+                        {
+                            "text": "Lumber Merchant",
+                            "position": [
+                                -50,
+                                70,
+                                -68
+                            ],
+                            "radius": 0
+                        }
+                    ],
+                    "index": 0
+                },
+                "outlineEntity": {
+                    "entityType": "Player",
+                    "position": [
+                        -49.5,
+                        70.0,
+                        -67.5
+                    ]
+                }
+            },
+            {
+                "type": "guiClickSlot",
+                "instruction": "Navigate to Birch Minion Recipes",
+                "guiName": "Birch Minion Recipes",
+                "slotIndex": 11,
+                "command": "/viewrecipe BIRCH_GENERATOR_1"
+            },
+            {
+                "type": "guiClickSlot",
+                "instruction": "Craft Birch Minion I",
+                "guiName": "Birch Minion I Recipe",
+                "slotIndex": 32
+            },
+            {
+                "type": "guiClickSlot",
+                "instruction": "Navigate to Birch Minion Recipes",
+                "guiName": "Birch Minion Recipes",
+                "slotIndex": 12,
+                "command": "/viewrecipe BIRCH_GENERATOR_2"
+            },
+            {
+                "type": "guiClickSlot",
+                "instruction": "Craft Birch Minion II",
+                "guiName": "Birch Minion II Recipe",
+                "slotIndex": 32
+            },
+            {
+                "type": "guiClickSlot",
+                "instruction": "Navigate to Birch Minion Recipes",
+                "guiName": "Birch Minion Recipes",
+                "slotIndex": 13,
+                "command": "/viewrecipe BIRCH_GENERATOR_3"
+            },
+            {
+                "type": "guiClickSlot",
+                "instruction": "Craft Birch Minion III",
+                "guiName": "Birch Minion III Recipe",
+                "slotIndex": 32
+            },
+            {
+                "type": "buy",
+                "instruction": "Buy Spruce Logs &b%1%&r",
+                "items": {
+                    "LOG:1": {
+                        "count": 0,
+                        "target": 560,
+                        "done": false
+                    }
+                },
+                "waypoint": {
+                    "type": "list",
+                    "beam": true,
+                    "list": [
+                        {
+                            "text": "Lumber Merchant",
+                            "position": [
+                                -50,
+                                70,
+                                -68
+                            ],
+                            "radius": 0
+                        }
+                    ],
+                    "index": 0
+                },
+                "outlineEntity": {
+                    "entityType": "Player",
+                    "position": [
+                        -49.5,
+                        70.0,
+                        -67.5
+                    ]
+                }
+            },
+            {
+                "type": "guiClickSlot",
+                "instruction": "Navigate to Spruce Minion Recipes",
+                "guiName": "Spruce Minion Recipes",
+                "slotIndex": 11,
+                "command": "/viewrecipe SPRUCE_GENERATOR_1"
+            },
+            {
+                "type": "guiClickSlot",
+                "instruction": "Craft Spruce Minion I",
+                "guiName": "Spruce Minion I Recipe",
+                "slotIndex": 32
+            },
+            {
+                "type": "guiClickSlot",
+                "instruction": "Navigate to Spruce Minion Recipes",
+                "guiName": "Spruce Minion Recipes",
+                "slotIndex": 12,
+                "command": "/viewrecipe SPRUCE_GENERATOR_2"
+            },
+            {
+                "type": "guiClickSlot",
+                "instruction": "Craft Spruce Minion II",
+                "guiName": "Spruce Minion II Recipe",
+                "slotIndex": 32
+            },
+            {
+                "type": "guiClickSlot",
+                "instruction": "Navigate to Spruce Minion Recipes",
+                "guiName": "Spruce Minion Recipes",
+                "slotIndex": 13,
+                "command": "/viewrecipe SPRUCE_GENERATOR_3"
+            },
+            {
+                "type": "guiClickSlot",
+                "instruction": "Craft Spruce Minion III",
+                "guiName": "Spruce Minion III Recipe",
+                "slotIndex": 32
+            },
+            {
+                "type": "buy",
+                "instruction": "Buy Acacia Logs &b%1%&r",
+                "items": {
+                    "LOG_2": {
+                        "count": 0,
+                        "target": 640,
+                        "done": false
+                    }
+                },
+                "waypoint": {
+                    "type": "list",
+                    "beam": true,
+                    "list": [
+                        {
+                            "text": "Lumber Merchant",
+                            "position": [
+                                -50,
+                                70,
+                                -68
+                            ],
+                            "radius": 0
+                        }
+                    ],
+                    "index": 0
+                },
+                "outlineEntity": {
+                    "entityType": "Player",
+                    "position": [
+                        -49.5,
+                        70.0,
+                        -67.5
+                    ]
+                }
+            },
+            {
+                "type": "guiClickSlot",
+                "instruction": "Navigate to Acacia Minion Recipes",
+                "guiName": "Acacia Minion Recipes",
+                "slotIndex": 11,
+                "command": "/viewrecipe ACACIA_GENERATOR_1"
+            },
+            {
+                "type": "has",
+                "instruction": "Craft Acacia Minion I &b%1%&r",
+                "items": {
+                    "ACACIA_GENERATOR_1": {
+                        "count": 0,
+                        "target": 8,
+                        "done": false
+                    }
+                }
+            },
+            {
+                "type": "sell",
+                "instruction": "Sell items",
+                "items": [
+                    "LOG",
+                    "LOG:2",
+                    "LOG:1",
+                    "LOG_2:1",
+                    "LOG_2",
+                    "LOG:3"
+                ],
+                "command": "/trades"
+            },
+            {
+                "type": "store",
+                "instruction": "Store items",
+                "items": [
+                    "OAK_GENERATOR_3",
+                    "BIRCH_GENERATOR_3",
+                    "SPRUCE_GENERATOR_3"
+                ],
+                "command": "/ec 1"
+            },
+            {
+                "type": "area",
+                "instruction": "/is",
+                "area": "Private Island",
+                "command": "/is"
+            },
+            {
+                "type": "message",
+                "instruction": "Place Acacia Minions x7\n&cDon't forget storages!",
+                "criteria": "You placed a minion! (8"
+            },
+            {
+                "type": "store",
+                "instruction": "Store items",
+                "items": [
+                    "ACACIA_GENERATOR_1"
+                ],
+                "command": "/ec 1"
+            }
+        ]
+    }
+}
