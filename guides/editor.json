@@ -71,9 +71,10 @@
                 "slotIndex": 22
             },
             {
-                "type": "message",
+                "type": "skill",
                 "instruction": "Catch a fish",
-                "criteria": "Talk to Fisherwoman Enid."
+                "skill": "fishing",
+                "level": 0.01
             },
             {
                 "type": "message",
@@ -232,9 +233,9 @@
             },
             {
                 "type": "collection",
-                "instruction": "Unlock Wheat Collection 3",
+                "instruction": "Unlock Wheat Collection 4",
                 "collection": "wheat",
-                "level": 3,
+                "level": 4,
                 "waypoint": {
                     "type": "list",
                     "beam": true,
@@ -298,22 +299,6 @@
                 }
             },
             {
-                "type": "skill",
-                "instruction": "Unlock Farming 5",
-                "skill": "farming",
-                "level": 5
-            },
-            {
-                "type": "sell",
-                "instruction": "Sell items",
-                "items": [
-                    "ANCIENT_CLAW",
-                    "POTATO_ITEM",
-                    "SEEDS"
-                ],
-                "command": "/trades"
-            },
-            {
                 "type": "guiClickSlot",
                 "instruction": "Craft Farming Talisman",
                 "guiName": "Farming Talisman Recipe",
@@ -347,6 +332,25 @@
                 "guiName": "Farm Suit Boots Recipe",
                 "slotIndex": 32,
                 "command": "/viewrecipe FARM_SUIT_BOOTS"
+            },
+            {
+                "type": "skill",
+                "instruction": "Unlock Farming 5",
+                "skill": "farming",
+                "level": 5
+            },
+            {
+                "type": "sell",
+                "instruction": "Sell items",
+                "items": [
+                    "ANCIENT_CLAW",
+                    "HAY_BLOCK",
+                    "WHEAT",
+                    "SEEDS",
+                    "ENCHANTED_SEEDS",
+                    "NETHER_STALK"
+                ],
+                "command": "/trades"
             },
             {
                 "type": "buy",
@@ -395,19 +399,6 @@
                     "FARM_SUIT_BOOTS"
                 ],
                 "command": "/ec 1"
-            },
-            {
-                "type": "sell",
-                "instruction": "Sell items",
-                "items": [
-                    "ANCIENT_CLAW",
-                    "HAY_BLOCK",
-                    "WHEAT",
-                    "SEEDS",
-                    "ENCHANTED_SEEDS",
-                    "NETHER_STALK"
-                ],
-                "command": "/trades"
             },
             {
                 "type": "message",
@@ -462,7 +453,7 @@
                 "items": {
                     "GOLD_INGOT": {
                         "count": 0,
-                        "target": 7,
+                        "target": 4,
                         "done": false
                     }
                 },
@@ -532,15 +523,155 @@
                 }
             },
             {
-                "type": "sell",
-                "instruction": "Drop Coal",
-                "items": [
-                    "COAL"
-                ]
+                "type": "buy",
+                "instruction": "Buy Gold Ingot &b%1%&r",
+                "items": {
+                    "GOLD_INGOT": {
+                        "count": 0,
+                        "target": 4,
+                        "done": false
+                    }
+                },
+                "waypoint": {
+                    "type": "list",
+                    "beam": true,
+                    "list": [
+                        {
+                            "text": "Mining Merchant",
+                            "position": [
+                                14.5,
+                                63.0,
+                                -114.0
+                            ],
+                            "radius": 0
+                        }
+                    ],
+                    "index": 0
+                },
+                "outlineEntity": {
+                    "entityType": "Player",
+                    "position": [
+                        14.5,
+                        63.0,
+                        -114.0
+                    ]
+                }
             },
             {
                 "type": "message",
-                "instruction": "Pick up Coal",
+                "instruction": "/warp stonks",
+                "criteria": "Warping...",
+                "command": "/warp stonks"
+            },
+            {
+                "type": "buy",
+                "instruction": "Buy Redstone &b%1%",
+                "items": {
+                    "REDSTONE": {
+                        "count": 0,
+                        "target": 32,
+                        "done": false
+                    }
+                },
+                "waypoint": {
+                    "type": "list",
+                    "beam": true,
+                    "list": [
+                        {
+                            "text": "",
+                            "position": [
+                                -45.0,
+                                69.0,
+                                -80.0
+                            ],
+                            "radius": 8
+                        },
+                        {
+                            "text": "",
+                            "position": [
+                                -25.0,
+                                69.0,
+                                -52.0
+                            ],
+                            "radius": 10
+                        },
+                        {
+                            "text": "",
+                            "position": [
+                                -14.0,
+                                70.0,
+                                -54.0
+                            ],
+                            "radius": 10
+                        },
+                        {
+                            "text": "",
+                            "position": [
+                                -10.0,
+                                71.0,
+                                -59.0
+                            ],
+                            "radius": 8
+                        },
+                        {
+                            "text": "Mad Redstone Engineer",
+                            "position": [
+                                -8.5,
+                                71.0,
+                                -55.5
+                            ],
+                            "radius": 0
+                        }
+                    ],
+                    "index": 0
+                },
+                "outlineEntity": {
+                    "entityType": "Player",
+                    "position": [
+                        -8.5,
+                        71.0,
+                        -55.5
+                    ]
+                }
+            },
+            {
+                "type": "buy",
+                "instruction": "Buy Yellow Stained Glass &b%1%",
+                "items": {
+                    "STAINED_GLASS:4": {
+                        "count": 0,
+                        "target": 20,
+                        "done": false
+                    }
+                },
+                "waypoint": {
+                    "type": "list",
+                    "beam": true,
+                    "list": [
+                        {
+                            "text": "Wool Weaver",
+                            "position": [
+                                -17.5,
+                                71.0,
+                                -57.5
+                            ],
+                            "radius": 0
+                        }
+                    ],
+                    "index": 0
+                },
+                "outlineEntity": {
+                    "entityType": "Player",
+                    "position": [
+                        -17.5,
+                        71.0,
+                        -57.5
+                    ]
+                }
+            },
+            {
+                "type": "message",
+                "instruction": "Drop and pick up Coal",
                 "criteria": "OBJECTIVE COMPLETE"
             },
             {
@@ -765,7 +896,7 @@
             },
             {
                 "type": "buy",
-                "instruction": "Buy Oak Logs &b%1%&r\nBuy Sticks &b%2%&r\nBuy Wooden Swords &b%3%&r\nBuy Wooden Pickaxe &b%4%&r\nBuy Wooden Shovel &b%5%&r\nBuy Wooden Hoe &b%6%&r",
+                "instruction": "Buy Oak Logs &b%1%&r\nBuy Sticks &b%2%&r\nBuy Wooden Swords &b%3%&r\nBuy Wooden Shovel &b%4%&r",
                 "items": {
                     "LOG": {
                         "count": 0,
@@ -782,17 +913,7 @@
                         "target": 2,
                         "done": false
                     },
-                    "WOOD_PICKAXE": {
-                        "count": 0,
-                        "target": 1,
-                        "done": false
-                    },
                     "WOOD_SPADE": {
-                        "count": 0,
-                        "target": 1,
-                        "done": false
-                    },
-                    "WOOD_HOE": {
                         "count": 0,
                         "target": 1,
                         "done": false
@@ -1023,7 +1144,7 @@
                     "beam": true,
                     "list": [
                         {
-                            "text": "Minion",
+                            "text": "",
                             "position": [
                                 3,
                                 99.5,
@@ -1044,37 +1165,33 @@
                 }
             },
             {
-                "type": "has",
-                "instruction": "Wait for inventory update",
-                "items": {
-                    "COBBLESTONE_GENERATOR_1": {
-                        "count": 0,
-                        "target": 1,
-                        "done": false
-                    }
+                "type": "message",
+                "instruction": "Talk to Jerry",
+                "criteria": "[NPC] Jerry: Your SkyBlock island is part of a much larger universe.",
+                "waypoint": {
+                    "type": "list",
+                    "beam": true,
+                    "list": [
+                        {
+                            "text": "",
+                            "position": [
+                                9,
+                                100,
+                                33
+                            ],
+                            "radius": 0
+                        }
+                    ],
+                    "index": 0
+                },
+                "outlineEntity": {
+                    "entityType": "Villager",
+                    "position": [
+                        9.5,
+                        100.0,
+                        33.5
+                    ]
                 }
-            },
-            {
-                "type": "sell",
-                "instruction": "Sell items",
-                "items": [
-                    "ANCIENT_CLAW",
-                    "COBBLESTONE",
-                    "ROTTEN_FLESH",
-                    "SULPHUR",
-                    "STRING",
-                    "SPIDER_EYE",
-                    "ENDER_PEARL"
-                ],
-                "command": "/trades"
-            },
-            {
-                "type": "store",
-                "instruction": "Store items",
-                "items": [
-                    "COBBLESTONE_GENERATOR_1"
-                ],
-                "command": "/ec 1"
             },
             {
                 "type": "message",
@@ -1101,6 +1218,208 @@
                 "type": "message",
                 "instruction": "Do 3rd superpairs\n&7(Try to get Grand Experience Bottle)",
                 "criteria": "You claimed the Superpairs rewards!"
+            },
+            {
+                "type": "guiClickSlot",
+                "instruction": "Get Move Jerry Egg",
+                "guiName": "Jerry The Assistant",
+                "slotIndex": 35,
+                "command": "/jerry"
+            },
+            {
+                "type": "has",
+                "instruction": "Wait for inventory update",
+                "items": {
+                    "ASSISTANT": {
+                        "count": 0,
+                        "target": 1,
+                        "done": false
+                    }
+                }
+            },
+            {
+                "type": "store",
+                "instruction": "Store items",
+                "items": [
+                    "GLOWSTONE_DUST",
+                    "COBBLESTONE_GENERATOR_1",
+                    "ASSISTANT"
+                ],
+                "command": "/ec 1"
+            },
+            {
+                "type": "guiClickSlot",
+                "instruction": "Get Move Jerry Egg",
+                "guiName": "Jerry The Assistant",
+                "slotIndex": 35,
+                "command": "/jerry"
+            },
+            {
+                "type": "has",
+                "instruction": "Wait for inventory update",
+                "items": {
+                    "ASSISTANT": {
+                        "count": 0,
+                        "target": 1,
+                        "done": false
+                    }
+                }
+            },
+            {
+                "type": "store",
+                "instruction": "Store items",
+                "items": [
+                    "ASSISTANT"
+                ],
+                "command": "/ec 1"
+            },
+            {
+                "type": "guiClickSlot",
+                "instruction": "Get Move Jerry Egg",
+                "guiName": "Jerry The Assistant",
+                "slotIndex": 35,
+                "command": "/jerry"
+            },
+            {
+                "type": "has",
+                "instruction": "Wait for inventory update",
+                "items": {
+                    "ASSISTANT": {
+                        "count": 0,
+                        "target": 1,
+                        "done": false
+                    }
+                }
+            },
+            {
+                "type": "store",
+                "instruction": "Store items",
+                "items": [
+                    "ASSISTANT"
+                ],
+                "command": "/ec 1"
+            },
+            {
+                "type": "guiClickSlot",
+                "instruction": "Get Move Jerry Egg",
+                "guiName": "Jerry The Assistant",
+                "slotIndex": 35,
+                "command": "/jerry"
+            },
+            {
+                "type": "has",
+                "instruction": "Wait for inventory update",
+                "items": {
+                    "ASSISTANT": {
+                        "count": 0,
+                        "target": 1,
+                        "done": false
+                    }
+                }
+            },
+            {
+                "type": "store",
+                "instruction": "Store items",
+                "items": [
+                    "ASSISTANT"
+                ],
+                "command": "/ec 1"
+            },
+            {
+                "type": "guiClickSlot",
+                "instruction": "Get Move Jerry Egg",
+                "guiName": "Jerry The Assistant",
+                "slotIndex": 35,
+                "command": "/jerry"
+            },
+            {
+                "type": "has",
+                "instruction": "Wait for inventory update",
+                "items": {
+                    "ASSISTANT": {
+                        "count": 0,
+                        "target": 1,
+                        "done": false
+                    }
+                }
+            },
+            {
+                "type": "store",
+                "instruction": "Store items",
+                "items": [
+                    "ASSISTANT"
+                ],
+                "command": "/ec 1"
+            },
+            {
+                "type": "guiClickSlot",
+                "instruction": "Get Move Jerry Egg",
+                "guiName": "Jerry The Assistant",
+                "slotIndex": 35,
+                "command": "/jerry"
+            },
+            {
+                "type": "has",
+                "instruction": "Wait for inventory update",
+                "items": {
+                    "ASSISTANT": {
+                        "count": 0,
+                        "target": 1,
+                        "done": false
+                    }
+                }
+            },
+            {
+                "type": "store",
+                "instruction": "Store items",
+                "items": [
+                    "ASSISTANT"
+                ],
+                "command": "/ec 1"
+            },
+            {
+                "type": "guiClickSlot",
+                "instruction": "Get Move Jerry Egg",
+                "guiName": "Jerry The Assistant",
+                "slotIndex": 35,
+                "command": "/jerry"
+            },
+            {
+                "type": "has",
+                "instruction": "Wait for inventory update",
+                "items": {
+                    "ASSISTANT": {
+                        "count": 0,
+                        "target": 1,
+                        "done": false
+                    }
+                }
+            },
+            {
+                "type": "store",
+                "instruction": "Store items",
+                "items": [
+                    "ASSISTANT"
+                ],
+                "command": "/ec 1"
+            },
+            {
+                "type": "guiClickSlot",
+                "instruction": "Get Move Jerry Egg",
+                "guiName": "Jerry The Assistant",
+                "slotIndex": 35,
+                "command": "/jerry"
+            },
+            {
+                "type": "has",
+                "instruction": "Wait for inventory update",
+                "items": {
+                    "ASSISTANT": {
+                        "count": 0,
+                        "target": 1,
+                        "done": false
+                    }
+                }
             },
             {
                 "type": "area",
@@ -1289,7 +1608,7 @@
             },
             {
                 "type": "has",
-                "instruction": "Get Raw Porkchop &b%2%&r\nGet Leather &b%2%&r",
+                "instruction": "Get Raw Porkchop &b%2%&r\nGet Leather &b%2%&r\nGet Egg &b%3%&r",
                 "items": {
                     "PORK": {
                         "count": 0,
@@ -1299,6 +1618,11 @@
                     "LEATHER": {
                         "count": 0,
                         "target": 24,
+                        "done": false
+                    },
+                    "EGG": {
+                        "count": 0,
+                        "target": 1,
                         "done": false
                     }
                 }
@@ -1311,30 +1635,23 @@
                 "command": "/mobtypes"
             },
             {
-                "type": "sell",
-                "instruction": "Sell items",
-                "items": [
-                    "ANCIENT_CLAW",
-                    "FEATHER",
-                    "RAW_BEEF",
-                    "POTATO_ITEM",
-                    "WHEAT",
-                    "SEEDS",
-                    "CARROT_ITEM",
-                    "PUMPKIN",
-                    "MELON_BLOCK",
-                    "MELON",
-                    "RAW_CHICKEN",
-                    "EGG"
-                ],
-                "command": "/trades"
-            },
-            {
                 "type": "upgradeMinion",
                 "instruction": "Craft Pig Minion I",
                 "minionId": "PIG",
                 "fromLevel": 0,
                 "toLevel": 1
+            },
+            {
+                "type": "guiClickSlot",
+                "instruction": "Craft Jerry Pet",
+                "guiName": "Jerry Pet Recipe",
+                "slotIndex": 32,
+                "command": "/viewrecipe JERRY"
+            },
+            {
+                "type": "message",
+                "instruction": "Add Jerry to Pet Menu\n&7(Hold item & Right-Click)",
+                "criteria": "Successfully added Jerry to your pet menu!"
             },
             {
                 "type": "has",
@@ -1365,7 +1682,7 @@
             },
             {
                 "type": "store",
-                "instruction": "Store items",
+                "instruction": "Store Leather Armor",
                 "items": [
                     "LEATHER_HELMET",
                     "LEATHER_CHESTPLATE",
@@ -1378,6 +1695,8 @@
                 "type": "sell",
                 "instruction": "Sell items",
                 "items": [
+                    "GOLD_INGOT",
+                    "COBBLESTONE",
                     "ANCIENT_CLAW",
                     "FEATHER",
                     "LEATHER",
@@ -2056,7 +2375,7 @@
                 "items": {
                     "LOG": {
                         "count": 0,
-                        "target": 600,
+                        "target": 624,
                         "done": false
                     }
                 }
@@ -2084,6 +2403,56 @@
                     }
                 },
                 "command": "/viewrecipe ENCHANTED_COAL"
+            },
+            {
+                "type": "has",
+                "instruction": "Get Oak Log &b%1%&r",
+                "items": {
+                    "LOG": {
+                        "count": 0,
+                        "target": 24,
+                        "done": false
+                    }
+                }
+            },
+            {
+                "type": "guiClickSlot",
+                "instruction": "Craft Leaflet Hat",
+                "guiName": "Leaflet Hat Recipe",
+                "slotIndex": 32,
+                "command": "/viewrecipe LEAFLET_HELMET"
+            },
+            {
+                "type": "guiClickSlot",
+                "instruction": "Craft Leaflet Tunic",
+                "guiName": "Leaflet Tunic Recipe",
+                "slotIndex": 32,
+                "command": "/viewrecipe LEAFLET_CHESTPLATE"
+            },
+            {
+                "type": "guiClickSlot",
+                "instruction": "Craft Leaflet Pants",
+                "guiName": "Leaflet Pants Recipe",
+                "slotIndex": 32,
+                "command": "/viewrecipe LEAFLET_LEGGINGS"
+            },
+            {
+                "type": "guiClickSlot",
+                "instruction": "Craft Leaflet Sandals",
+                "guiName": "Leaflet Sandals Recipe",
+                "slotIndex": 32,
+                "command": "/viewrecipe LEAFLET_BOOTS"
+            },
+            {
+                "type": "sell",
+                "instruction": "Store Leaflet Armor",
+                "items": [
+                    "LEAFLET_HELMET",
+                    "LEAFLET_CHESTPLATE",
+                    "LEAFLET_LEGGINGS",
+                    "LEAFLET_BOOTS"
+                ],
+                "command": "/ec 1"
             },
             {
                 "type": "area",
@@ -3725,7 +4094,7 @@
             },
             {
                 "type": "store",
-                "instruction": "Store talisman\n&7(Accessory Bag or Ender Chest)",
+                "instruction": "Store Talisman\n&7(Accessory Bag or Ender Chest)",
                 "items": [
                     "ZOMBIE_TALISMAN",
                     "SKELETON_TALISMAN",
@@ -3738,7 +4107,7 @@
             },
             {
                 "type": "buy",
-                "instruction": "Buy Iron Armor\nBuy Rosetta Armor\nBuy Squire Armor",
+                "instruction": "Buy Each Rosetta Set &bx1&r",
                 "items": {
                     "IRON_HELMET": {
                         "count": 0,
@@ -3799,56 +4168,7 @@
                         "count": 0,
                         "target": 1,
                         "done": false
-                    }
-                },
-                "waypoint": {
-                    "type": "list",
-                    "beam": true,
-                    "list": [
-                        {
-                            "text": "Rosetta",
-                            "position": [
-                                -53.5,
-                                69.0,
-                                -88.5
-                            ],
-                            "radius": 0
-                        }
-                    ],
-                    "index": 0
-                },
-                "outlineEntity": {
-                    "entityType": "Player",
-                    "position": [
-                        -53.5,
-                        69.0,
-                        -88.5
-                    ]
-                }
-            },
-            {
-                "type": "store",
-                "instruction": "Store Armor Sets",
-                "items": [
-                    "IRON_HELMET",
-                    "IRON_CHESTPLATE",
-                    "IRON_LEGGINGS",
-                    "IRON_BOOTS",
-                    "ROSETTA_HELMET",
-                    "ROSETTA_CHESTPLATE",
-                    "ROSETTA_LEGGINGS",
-                    "ROSETTA_BOOTS",
-                    "SQUIRE_HELMET",
-                    "SQUIRE_CHESTPLATE",
-                    "SQUIRE_LEGGINGS",
-                    "SQUIRE_BOOTS"
-                ],
-                "command": "/wardrobe"
-            },
-            {
-                "type": "buy",
-                "instruction": "Buy Celeste Armor\nBuy Starlight Armor\nBuy Mercenary Armor",
-                "items": {
+                    },
                     "CELESTE_HELMET": {
                         "count": 0,
                         "target": 1,
@@ -3939,6 +4259,18 @@
                 "type": "store",
                 "instruction": "Store Armor Sets",
                 "items": [
+                    "IRON_HELMET",
+                    "IRON_CHESTPLATE",
+                    "IRON_LEGGINGS",
+                    "IRON_BOOTS",
+                    "ROSETTA_HELMET",
+                    "ROSETTA_CHESTPLATE",
+                    "ROSETTA_LEGGINGS",
+                    "ROSETTA_BOOTS",
+                    "SQUIRE_HELMET",
+                    "SQUIRE_CHESTPLATE",
+                    "SQUIRE_LEGGINGS",
+                    "SQUIRE_BOOTS",
                     "CELESTE_HELMET",
                     "CELESTE_CHESTPLATE",
                     "CELESTE_LEGGINGS",
@@ -3969,7 +4301,11 @@
                     "MUSHROOM_HELMET",
                     "MUSHROOM_CHESTPLATE",
                     "MUSHROOM_LEGGINGS",
-                    "MUSHROOM_BOOTS"
+                    "MUSHROOM_BOOTS",
+                    "LEAFLET_HELMET",
+                    "LEAFLET_CHESTPLATE",
+                    "LEAFLET_LEGGINGS",
+                    "LEAFLET_BOOTS"
                 ],
                 "command": "/ec 1"
             },
@@ -3988,9 +4324,65 @@
                     "MUSHROOM_HELMET",
                     "MUSHROOM_CHESTPLATE",
                     "MUSHROOM_LEGGINGS",
-                    "MUSHROOM_BOOTS"
+                    "MUSHROOM_BOOTS",
+                    "LEAFLET_HELMET",
+                    "LEAFLET_CHESTPLATE",
+                    "LEAFLET_LEGGINGS",
+                    "LEAFLET_BOOTS"
                 ],
                 "command": "/wardrobe"
+            },
+            {
+                "type": "enchant",
+                "instruction": "Enchant items",
+                "items": {
+                    "END_HELMET": {
+                        "enchants": [
+                            "Protection V",
+                            "Growth V"
+                        ],
+                        "done": false
+                    },
+                    "END_CHESTPLATE": {
+                        "enchants": [
+                            "Protection V",
+                            "Growth V"
+                        ],
+                        "done": false
+                    },
+                    "END_LEGGINGS": {
+                        "enchants": [
+                            "Protection V",
+                            "Growth V"
+                        ],
+                        "done": false
+                    },
+                    "END_BOOTS": {
+                        "enchants": [
+                            "Protection V",
+                            "Growth V",
+                            "Depth Strider III",
+                            "Feather Falling V"
+                        ],
+                        "done": false
+                    }
+                },
+                "waypoint": {
+                    "type": "list",
+                    "beam": true,
+                    "list": [
+                        {
+                            "text": "",
+                            "position": [
+                                -67.0,
+                                70.0,
+                                -81.0
+                            ],
+                            "radius": 0
+                        }
+                    ],
+                    "index": 0
+                }
             }
         ]
     }
